@@ -1,0 +1,53 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, tags } = post.data;
+
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date);
+}
+
+function readingTime(content: string): string {
+  const mins = Math.max(1, Math.round(content.trim().split(/\s+/).length / 200));
+  return `${mins} min read`;
+}
+---
+
+<li class="post-card">
+  <!-- Stretched invisible link makes the whole card clickable -->
+  <a href={`/blog/${post.slug}/`} class="post-card__link" tabindex="-1" aria-hidden="true"></a>
+
+  <div class="post-card__body">
+    {tags.length > 0 && (
+      <ul class="tags" role="list">
+        {tags.map(tag => (
+          <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+        ))}
+      </ul>
+    )}
+
+    <h2 class="post-card__title">
+      <a href={`/blog/${post.slug}/`}>{title}</a>
+    </h2>
+
+    {description && <p class="post-card__desc">{description}</p>}
+
+    <div class="post-card__footer">
+      <div class="post-card__meta">
+        <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        <span class="post-card__sep" aria-hidden="true">·</span>
+        <span>{readingTime(post.body)}</span>
+      </div>
+      <span class="post-card__arrow" aria-hidden="true">→</span>
+    </div>
+  </div>
+</li>

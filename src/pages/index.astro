@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const [featured, ...rest] = posts;
+
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric', month: 'long', year: 'numeric',
+  }).format(date);
+}
+
+function readingTime(content: string): string {
+  const mins = Math.max(1, Math.round(content.trim().split(/\s+/).length / 200));
+  return `${mins} min read`;
+}
+---
+
+<BaseLayout title="Niall Walsh">
+  <div class="container--editorial">
+
+    <!-- Masthead hero -->
+    <section class="home-hero" aria-labelledby="hero-heading">
+      <p class="home-hero__eyebrow">Niall Walsh &mdash; Writing</p>
+      <h1 class="home-hero__title" id="hero-heading">
+        Ideas worth<br />thinking about.
+      </h1>
+      <hr class="home-hero__rule" aria-hidden="true" />
+      <p class="home-hero__sub">
+        Essays on craft, technology, and the places where they collide.
+      </p>
+    </section>
+
+    <!-- Featured post — no card box, just bold type -->
+    {featured && (
+      <section aria-label="Latest post" class="featured-hero">
+        <p class="featured-hero__kicker">Latest</p>
+        <h2 class="featured-hero__title">
+          <a href={`/blog/${featured.slug}/`}>{featured.data.title}</a>
+        </h2>
+        {featured.data.description && (
+          <p class="featured-hero__desc">{featured.data.description}</p>
+        )}
+        <div class="featured-hero__foot">
+          <div class="featured-hero__meta">
+            <time datetime={featured.data.pubDate.toISOString()}>
+              {formatDate(featured.data.pubDate)}
+            </time>
+            <span aria-hidden="true">·</span>
+            <span>{readingTime(featured.body)}</span>
+          </div>
+          {featured.data.tags.length > 0 && (
+            <ul class="tags" role="list">
+              {featured.data.tags.map(tag => (
+                <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+              ))}
+            </ul>
+          )}
+          <a href={`/blog/${featured.slug}/`} class="featured-hero__cta" aria-label={`Read ${featured.data.title}`}>
+            Read &nbsp;→
+          </a>
+        </div>
+      </section>
+    )}
+
+    <!-- Post list — editorial rows, no card boxes -->
+    <section aria-labelledby="posts-label">
+      <p class="section-label" id="posts-label">
+        All writing
+        <span class="section-label__count">{posts.length}</span>
+      </p>
+      <ul class="post-rows" role="list">
+        {rest.map(post => (
+          <li class="post-row">
+            <a href={`/blog/${post.slug}/`} class="post-row__link" tabindex="-1" aria-hidden="true"></a>
+            <div class="post-row__body">
+              {post.data.tags.length > 0 && (
+                <ul class="tags post-row__tags" role="list">
+                  {post.data.tags.map(tag => (
+                    <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+                  ))}
+                </ul>
+              )}
+              <h2 class="post-row__title">
+                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+              </h2>
+              {post.data.description && (
+                <p class="post-row__desc">{post.data.description}</p>
+              )}
+              <div class="post-row__meta">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {formatDate(post.data.pubDate)}
+                </time>
+                <span aria-hidden="true">·</span>
+                <span>{readingTime(post.body)}</span>
+              </div>
+            </div>
+            <span class="post-row__arrow" aria-hidden="true">→</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+  </div>
+</BaseLayout>

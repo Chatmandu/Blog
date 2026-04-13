@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About"
+  description="A little about Niall Walsh — who I am and what I write about."
+>
+  <div class="article-page">
+    <a href="/" class="back-link" aria-label="Back to all posts">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      All posts
+    </a>
+
+    <header class="page-header">
+      <h1 class="article-title">About</h1>
+    </header>
+
+    <div class="article-prose"><div class="prose">
+      <p class="about-intro">
+        Hi, I'm Niall. I write about ideas, the craft of making things, and the
+        places where technology and culture collide.
+      </p>
+
+      <p>
+        I've been writing online for a few years — first on Medium, now here.
+        This site is my own corner of the internet: no algorithm, no engagement
+        metrics, just essays and notes at whatever pace feels right.
+      </p>
+
+      <p>
+        The things I think and write about most: software and how it shapes
+        behaviour, the practice of writing itself, design as a way of thinking,
+        and whatever I happen to be reading.
+      </p>
+
+      <h2>Get in touch</h2>
+
+      <p>
+        The best way to reach me is by email:
+        <a href="mailto:nbwalsh@gmail.com">nbwalsh@gmail.com</a>.
+        I read everything and reply to most things, eventually.
+      </p>
+
+      <h2>The site</h2>
+
+      <p>
+        Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a>,
+        written in Markdown, hosted as static HTML. No tracking, no analytics,
+        no third-party scripts beyond the fonts.
+      </p>
+
+      <p>
+        The typefaces are
+        <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank" rel="noopener noreferrer">Playfair Display</a>
+        for display headings,
+        <a href="https://fonts.google.com/specimen/Lora" target="_blank" rel="noopener noreferrer">Lora</a>
+        for body text, and
+        <a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener noreferrer">Inter</a>
+        for UI elements. The design draws loosely on the editorial aesthetic of the
+        <a href="https://harvardfilmarchive.org" target="_blank" rel="noopener noreferrer">Harvard Film Archive</a>
+        — sparse, typographically bold, content-first.
+      </p>
+
+      <p>
+        Each post has an accompanying image generated with AI. The visual style is
+        inspired by the 1950s–60s film poster work of
+        <a href="https://en.wikipedia.org/wiki/Saul_Bass" target="_blank" rel="noopener noreferrer">Saul Bass</a>
+        and
+        <a href="https://en.wikipedia.org/wiki/Robert_Brownjohn" target="_blank" rel="noopener noreferrer">Robert Brownjohn</a>
+        — flat geometry, limited palettes, a single photographic fragment, and a
+        strong sense of directional tension. The images are generated from bespoke
+        prompts written for each post.
+      </p>
+
+      <p>
+        There's an <a href="/rss.xml">RSS feed</a> if you'd like to follow along
+        without the social media overhead.
+      </p>
+    </div></div>
+  </div>
+</BaseLayout>
