@@ -2,7 +2,7 @@
 title: "Building a HE marketing analytics dashboard in a week with Claude"
 description: "The analytics setup was there. The time, skills, and budget weren’t. What happens when you build it anyway."
 pubDate: 2026-04-11
-tags: []
+tags: ["AI", "HE", "Design", "Marketing"]
 ---
 
 ![Minimalist overhead shot of a blank notebook, a pen, and a single coffee cup on a dark surface. Natural light from one side.](https://cdn-images-1.medium.com/max/1200/1*Z73RlbrV2D1meID8oZDNrA.png)

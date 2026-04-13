@@ -6,7 +6,7 @@ tags: []
 ---
 
 ![Widescreen editorial illustration in a bold, graphic comic style. An open book sits in the foreground, rendered in deep blacks and textured ink lines. The left-hand page remains flat, filled with dense printed text, while the right-hand pages rise and transform seamlessly into a courtroom scene. The paper folds become architectural forms: a judge sits at a raised bench, a jury is seated below, and overhead lights cast a warm amber glow that contrasts with the otherwise monochrome palette. Strong](https://cdn-images-1.medium.com/max/1200/1*fCyST_49J26v5NN7IzPSYQ.png)
-
+ 
 I read [The Proving Ground ](https://www.michaelconnelly.com/writing/theprovingground/)late last year, the way I read most books, in small windows, late at night and when the kids are asleep.
 
 It’s a [Lincoln Lawyer ](https://en.wikipedia.org/wiki/The_Lincoln_Lawyer)novel, so the bones are familiar. Mickey Haller, civil litigation this time, an underdog case against a company with unlimited money and very good lawyers….
