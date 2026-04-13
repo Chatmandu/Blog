@@ -5,7 +5,7 @@ pubDate: 2026-04-11
 tags: ["AI", "HE", "Design", "Marketing"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold cobalt blue vertical bar on the left — like a column or scaffold — bleeds off the top and bottom edges. A warm amber horizontal beam extends rightward from its upper third, forming a rough L-shape. The structure is clearly unfinished: lines overrun their intersections. A B&W photographic cutout of a single steel set square (drafting tool), placed diagonally at the intersection, corner pointing into the frame. Off-white cream background. Flat screen-print texture.](/images/HE.jpg)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold cobalt blue vertical bar on the left — like a column or scaffold — bleeds off the top and bottom edges. A warm amber horizontal beam extends rightward from its upper third, forming a rough L-shape. The structure is clearly unfinished: lines overrun their intersections. A B&W photographic cutout of a single steel set square (drafting tool), placed diagonally at the intersection, corner pointing into the frame. Off-white cream background. Flat screen-print texture.](/images/Dashboard.jpg)
 
 LSTM launched a [new website](https://lstmed.ac.uk/) in March 2026. By April I needed to understand whether it was working as we planned. The data was there: GA4 configured, GTM live, Search Console verified. The gap was between the data and the insight. Which courses were attracting applicants? Where were researchers finding us? Was the organic search presence building? GA4 could answer all of it. It’s just not built to ask the questions a marketer needs to ask.
 
