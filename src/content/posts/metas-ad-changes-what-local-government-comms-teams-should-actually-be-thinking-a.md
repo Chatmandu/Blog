@@ -2,10 +2,10 @@
 title: "Meta’s ad changes: what local government comms teams should actually be thinking about"
 description: "I saw a post in a local government group asking people’s views on the new opt-in ads situation on Facebook and Instagram. It got me…"
 pubDate: 2026-01-30
-tags: []
+tags: ["Marketing", "LocalGov"]
 ---
 
-![Widescreen illustration in a bold, graphic comic style showing a large, neoclassical public building with columns and a clock tower, positioned dramatically on the edge of unstable, crumbling ground. The perspective is wide and cinematic, emphasising the scale of the building against the fractured landscape beneath it, with chunks of earth breaking away and falling. In the foreground, a sign indicates the land is under lease, reinforcing the instability of the foundation. The scene uses deep bla](https://cdn-images-1.medium.com/max/1200/1*ShMkGNoKEdsAtGUKElVKyA.png)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A navy blue horizontal platform bisects the frame, slightly off-centre downward. Above it: stable, ordered geometry in stone grey, upright. Below it: the same shapes falling, tilted, fragmenting — some bleedings off the bottom edge. A B&W photographic cutout of a single cracked brick, placed at the platform edge where the fracture begins. Off-white cream background. Flat screen-print texture.](/images/Meta.jpg)
 
 I saw a post in a local government group asking people’s views on the new opt-in ads situation on Facebook and Instagram. It got me thinking.
 

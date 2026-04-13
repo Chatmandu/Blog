@@ -2,10 +2,10 @@
 title: "FAQs: from content design sin to AI citation strategy"
 description: "AI search is changing what “good” content looks like."
 pubDate: 2026-01-23
-tags: []
+tags: ["AI", "Content Design"]
 ---
 
-![](https://cdn-images-1.medium.com/max/1200/1*r2i5LkxA5x8CWgwT6ZEQJQ.png)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large navy blue question mark dominates the left two-thirds of the frame, bleeding off the top and bottom edges. Its tail curves and terminates in a bold warm amber arrow pointing right — the question mark becomes directional. Off-white cream background. A B&W photographic cutout of a printed index card (close-up, ruled lines visible, corner dog-eared) placed at the tip of the arrow.](/images/Faq.jpg)
 
 For more than a decade, FAQs have been treated as a red flag in content design. The logic was simple: if you need an FAQ page, your information architecture has already failed.
 

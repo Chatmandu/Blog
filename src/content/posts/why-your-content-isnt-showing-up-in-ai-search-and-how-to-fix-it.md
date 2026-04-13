@@ -2,10 +2,10 @@
 title: "Why Your Content Isn’t Showing Up in AI Search (And How to Fix It)"
 description: "The shift from clicks to citations is already here — and the data is stark"
 pubDate: 2026-01-11
-tags: []
+tags: ["AI", "Content Design"]
 ---
 
-![Image illustrating how search behaviour is moving from link-clicking to AI-generated answers with citations, comparing classic search results with AI overview panels.](https://cdn-images-1.medium.com/max/800/1*QDZ9wtQbI5SXNfoOO2Q5mQ.png)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bright cobalt blue spotlight beam shines from top-right — but points slightly left of centre, missing a small near-black rectangle in the lower-left quadrant. The rectangle is just out of reach of the light. Off-white cream background. A B&W photographic cutout of a single sealed envelope, placed beneath the rectangle, in the unlit zone.](/images/Search.jpg)
 
 A few months ago, I wrote about how AI is quietly rewriting the rules of search, and why that changes everything about how we build websites. You can read it here: **“**[**Building for the Visitors Who’ll Never Visit**](https://medium.com/@chatmandu/building-for-the-visitors-wholl-never-visit-f79b9ac9ec16)**.”**
 
