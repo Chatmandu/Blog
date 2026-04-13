@@ -2,10 +2,10 @@
 title: "AI, accountability and harm: what a landmark tech verdict means for parents"
 description: "A real-world verdict now suggests it was closer to reality, and raises urgent questions about how AI products are designed, tested and…"
 pubDate: 2026-03-27
-tags: []
+tags: ["AI", "Culture", "Media"]
 ---
 
-![Widescreen editorial illustration in a bold, graphic comic style. An open book sits in the foreground, rendered in deep blacks and textured ink lines. The left-hand page remains flat, filled with dense printed text, while the right-hand pages rise and transform seamlessly into a courtroom scene. The paper folds become architectural forms: a judge sits at a raised bench, a jury is seated below, and overhead lights cast a warm amber glow that contrasts with the otherwise monochrome palette. Strong](https://cdn-images-1.medium.com/max/1200/1*fCyST_49J26v5NN7IzPSYQ.png)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Two bold vermillion rectangles of different sizes — one large (left), one small (right) — face each other across a narrow near-black gap in the centre. The gap is the subject. A B&W photographic cutout of a single small children's shoe, seen from the side, placed in the gap. Off-white cream background. Flat screen-print texture.](/images/Shoe.jpg)
  
 I read [The Proving Ground ](https://www.michaelconnelly.com/writing/theprovingground/)late last year, the way I read most books, in small windows, late at night and when the kids are asleep.
 

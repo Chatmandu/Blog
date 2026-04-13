@@ -2,7 +2,7 @@
 title: "Building a HE marketing analytics dashboard in a week with Claude"
 description: "The analytics setup was there. The time, skills, and budget weren’t. What happens when you build it anyway."
 pubDate: 2026-04-11
-tags: ["AI", "HE", "Design", "Marketing"]
+tags: ["AI", "Code", "Design", "Marketing"]
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold cobalt blue vertical bar on the left — like a column or scaffold — bleeds off the top and bottom edges. A warm amber horizontal beam extends rightward from its upper third, forming a rough L-shape. The structure is clearly unfinished: lines overrun their intersections. A B&W photographic cutout of a single steel set square (drafting tool), placed diagonally at the intersection, corner pointing into the frame. Off-white cream background. Flat screen-print texture.](/images/Dashboard.jpg)
