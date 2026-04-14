@@ -894,14 +894,19 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
 .prose li::marker { color: var(--c-muted); }
 
 .prose blockquote {
-  background: color-mix(in srgb, var(--c-accent) 5%, var(--c-surface));
-  border-left: 3px solid var(--c-accent);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  padding: var(--sp-5) var(--sp-6) var(--sp-5) var(--sp-8);
-  margin: var(--sp-8) 0;
-  color: var(--c-muted);
+  border-left: 4px solid var(--c-accent);
+  padding: var(--sp-6) 0 var(--sp-6) var(--sp-10);
+  margin: var(--sp-12) 0;
+  font-family: var(--f-display);
+  font-size: clamp(var(--text-xl), 2.5vw, var(--text-2xl));
   font-style: italic;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--c-text);
 }
+
+.prose blockquote p { margin-bottom: 0; }
 
 .prose code {
   font-family: var(--f-mono);
