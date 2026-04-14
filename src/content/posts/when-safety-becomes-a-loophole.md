@@ -2,7 +2,7 @@
 title: "When safety becomes a loophole"
 description: "What Malcolm Gladwell got me thinking about with self-driving cars, street football, and unintended consequences"
 pubDate: 2025-06-30
-tags: ["AI"]
+tags: ["AI", "Culture", "Digital"]
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A long forest green horizontal arrow spans the full width of the frame, pointing right, positioned in the lower third. At the arrow's tip, off-centre right: a small B&W photographic cutout of a soccer ball, precisely placed to interrupt the arrow's path. The arrow bends very slightly around the ball — it can't go through. Deep ochre background. Flat screen-print texture. Palette: forest green, deep ochre, off-white.](/images/Ball.jpg)

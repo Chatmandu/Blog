@@ -1,6 +1,6 @@
 ---
 title: "Interest media: discoverability over followership, curiosity over hierarchy"
-description: "Social Media is Dead."
+description: "Social platforms no longer reward your network — they reward your topic. What the shift from followership to interest media means for anyone trying to reach an audience."
 pubDate: 2025-08-12
 tags: ["Communication", "Digital", "Social Media"]
 ---

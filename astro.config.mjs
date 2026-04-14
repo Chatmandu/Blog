@@ -6,9 +6,14 @@ export default defineConfig({
   output: 'static',
   integrations: [
     sitemap({
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date(),
+      serialize(item) {
+        return {
+          ...item,
+          changefreq: 'weekly',
+          priority: item.url.includes('/blog/') ? 0.8 : 0.7,
+          lastmod: new Date().toISOString(),
+        };
+      },
     }),
   ],
   markdown: {

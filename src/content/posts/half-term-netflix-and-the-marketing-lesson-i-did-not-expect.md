@@ -1,8 +1,8 @@
 ---
 title: "Half term, Netflix, and the marketing lesson I did not expect"
-description: "The “I’ll do it myself” myth (and what it gets wrong)"
+description: “A teenage question during a Netflix binge became the clearest explanation of value I’ve heard in years. Why ‘I’ll do it myself’ almost always costs more than you think.”
 pubDate: 2026-02-19
-tags: ["Marketing"]
+tags: [“Marketing”, “Culture”]
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Multiple forest green arrows of different sizes converge on a single small point at the centre-right of the frame — some from the left, some from above, some from below, all pointing inward. The convergence point is a small B&W photographic cutout of a numbered auction paddle (just the paddle, no holder visible), face-on. Deep ochre background. Flat screen-print texture. Palette: forest green, deep ochre, off-white cream. Arrows bleed off left and top edges.](/images/Netflix.jpg)

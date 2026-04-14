@@ -2,7 +2,7 @@
 title: "The stories that land always come from somewhere real"
 description: "What a film scene can teach us about storytelling in global health, and why AI should support the work, not replace the human part."
 pubDate: 2026-01-30
-tags: ["Communication"]
+tags: ["Communication", "Marketing", "Culture"]
 ---
 
 _What a film scene can teach us about storytelling in global health, and why AI should support the work, not replace the human part._
