@@ -94,9 +94,6 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
     <!-- Extra head tags injected by child layouts (article meta, JSON-LD, etc.) -->
     <slot name="head" />
 
-    <!-- Cloudflare Web Analytics -->
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "REPLACE_WITH_YOUR_TOKEN"}'></script>
-
     <!-- Dark mode: run inline before first paint to prevent flash -->
     <script is:inline>
       (function () {
