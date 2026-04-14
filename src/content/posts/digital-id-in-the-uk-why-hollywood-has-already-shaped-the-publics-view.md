@@ -1,11 +1,11 @@
 ---
-title: "Digital ID in the UK: Why Hollywood Has Already Shaped the Public’s View"
+title: "Digital ID in the UK: Why Hollywood has already shaped the public’s view"
 description: "From Gattaca to Minority Report, films have taught us to see digital IDs as sinister. As the UK government prepares to roll out its own…"
 pubDate: 2025-09-27
-tags: []
+tags: ["Communication"]
 ---
 
-![Illustrated poster-style artwork inspired by the film Minority Report. The central focus is a close-up of a man with dark hair and a piercing stare, drawn with heavy shading and line work. Surrounding him are multiple other characters from the film, all illustrated in a mix of black, white, and deep red tones. Some figures wear dark suits and sunglasses, holding guns. Others appear tense, worried, or deep in thought, with faces shaded in red. A futuristic city skyline with tall buildings and a h](https://cdn-images-1.medium.com/max/1200/1*uR6O0XL-a2EZ42yqDlkVJg.png)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold near-black diagonal band cuts from top-left to bottom-right, off-centre, weighted toward the right. On the upper-left: off-white cream. On the lower-right: vermillion. A B&W photographic cutout of a 35mm film strip (just three frames, no images inside) placed precisely across the diagonal seam. Flat screen-print texture. Palette: vermillion, near-black, off-white cream. No text. No gradients.](/images/Film.jpg)
 
 In the films, a digital ID usually means you’re in trouble. In _Gattaca_ , it tells you your DNA isn’t good enough. In _Minority Report_ , shop walls shout your name while you’re just trying to buy a pair of socks. In _Blade Runner 2049_ , identity checks decide whether you’re human or something less. Even in lighter stuff like _Black Mirror_ , the idea of an all-encompassing identity system usually spirals into social scoring and surveillance. On screen, digital IDs are almost always a bad sign.
 

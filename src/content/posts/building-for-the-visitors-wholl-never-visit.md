@@ -1,11 +1,11 @@
 ---
-title: "Building for the Visitors Who’ll Never Visit"
+title: "Building for the visitors who’ll never visit"
 description: "How AI is quietly rewriting the rules of search — and why that changes everything about how we build websites"
 pubDate: 2025-05-11
-tags: []
+tags: ["AI", "Design", "Digital"]
 ---
 
-![A university marketing professional stands at the edge of a half-built digital city made of websites, pages and links, holding blueprints in one hand and a compass in the other. In the distance, ghost-like AI figures \(stylised like floating search bots\) are gathering information from the buildings without entering them. The mood is thoughtful and surreal, with a muted colour palette and fine, hand-drawn lines — like a New Yorker cartoon about technology and change](https://cdn-images-1.medium.com/max/800/1*K7uc11HQ3T8O0vj9gBpzhA@2x.jpeg)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large cobalt blue rectangle dominates the left half, bleeding off the left edge. A warm amber arrow points right into empty cream space — but nothing is at the arrow's destination. A B&W photographic cutout of a single empty chair, seen from behind, mid-frame, facing into the blue rectangle. Strong left-to-right tension. Flat screen-print texture. Palette: cobalt blue, warm amber, off-white cream.](/images/Web.jpg)
 
 The first website I built was at the [University of Liverpool](https://liv.ac.uk/) in the late 1990s. It was for a project, and it was exactly what you’d expect from a late-90s student site: a few basic pages, a single photo (that took too long to load), and a hit counter proudly ticking away at the bottom of the screen.
 

@@ -1,5 +1,5 @@
 ---
-title: "Why Your Content Isn’t Showing Up in AI Search (And How to Fix It)"
+title: "Why your content isn’t showing up in AI search (and how to fix it)"
 description: "The shift from clicks to citations is already here — and the data is stark"
 pubDate: 2026-01-11
 tags: ["AI", "Content Design"]

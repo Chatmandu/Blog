@@ -2,10 +2,10 @@
 title: "Interest media: discoverability over followership, curiosity over hierarchy"
 description: "Social Media is Dead."
 pubDate: 2025-08-12
-tags: []
+tags: ["Communication", "Digital", "Social Media"]
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*U3y8pXRVJJT2-zWWei38aA@2x.jpeg)
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A small cobalt blue circle at the upper-left quadrant radiates bold amber lines outward — like spokes, or a broadcast signal — extending past the frame edges, implying they continue beyond the border. The lines are uneven in weight. A B&W photographic cutout of a single vintage microphone, placed at the centre circle. Off-white cream background. Centrifugal energy, source in the corner not the centre. Flat screen-print texture. Palette: cobalt blue, warm amber, off-white cream.](/images/Media.jpg)
 
 ### For years, social media meant exactly that: content pushed to the people who followed you. Your reach was shaped by your network, your connections, your audience size. But we’re in a new era now.
 
