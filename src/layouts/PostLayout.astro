@@ -50,11 +50,12 @@ const jsonLd = {
     "@type": "WebPage",
     "@id": canonicalURL
   },
-  ...(tags.length > 0 && { "keywords": tags.join(", ") })
+  ...(tags.length > 0 && { "keywords": tags.join(", ") }),
+  ...(ogImage && { "image": new URL(ogImage, Astro.site).toString() })
 };
 ---
 
-<BaseLayout title={title} description={description} type="article">
+<BaseLayout title={title} description={description} type="article" ogImage={ogImage}>
   <!-- Article-specific Open Graph and schema -->
   <meta property="article:published_time" content={pubDate.toISOString()} slot="head" />
   {updatedDate && <meta property="article:modified_time" content={updatedDate.toISOString()} slot="head" />}

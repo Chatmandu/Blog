@@ -41,11 +41,14 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:type" content={type} />
     {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
+    {ogImage && <meta property="og:image:alt" content={title} />}
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />}
+    {ogImage && <meta name="twitter:image:alt" content={title} />}
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
