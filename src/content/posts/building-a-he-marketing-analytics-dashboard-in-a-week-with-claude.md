@@ -1,6 +1,7 @@
 ---
 title: "Building a HE marketing analytics dashboard in a week with Claude"
 description: "The analytics setup was there. The time, skills, and budget weren’t. What happens when you build it anyway."
+ogImage: "/images/Dashboard.jpg"
 pubDate: 2026-04-11
 tags: ["AI", "Code", "Design", "Marketing"]
 ---

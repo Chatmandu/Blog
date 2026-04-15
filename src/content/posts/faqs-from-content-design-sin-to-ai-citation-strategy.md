@@ -1,6 +1,7 @@
 ---
 title: "FAQs: from content design sin to AI citation strategy"
 description: “FAQs were a content design red flag for a decade. AI search has changed the job — and the format we dismissed as lazy might now be your easiest route to getting cited and trusted.”
+ogImage: "/images/Faq.jpg"
 pubDate: 2026-01-23
 tags: ["AI", "Content Design"]
 ---

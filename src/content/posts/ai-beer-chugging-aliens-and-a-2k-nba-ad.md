@@ -1,6 +1,7 @@
 ---
 title: "AI, Beer-Chugging Aliens, and a $2K NBA Ad"
 description: "What a chaotic AI-generated TV commercial tells us about where content creation is heading"
+ogImage: "/images/Eye.jpg"
 pubDate: 2025-06-18
 tags: ["AI", "Content Design", "Marketing"]
 ---

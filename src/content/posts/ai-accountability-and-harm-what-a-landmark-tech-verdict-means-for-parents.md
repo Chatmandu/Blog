@@ -1,6 +1,7 @@
 ---
 title: "AI, accountability and harm: what a landmark tech verdict means for parents"
 description: "A US court ruling shows that AI companies can be held responsible for what their products do to real people. What that verdict means for design, testing, and accountability."
+ogImage: "/images/Shoe.jpg"
 pubDate: 2026-03-27
 tags: ["AI", "Culture", "Media"]
 ---

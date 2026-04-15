@@ -1,6 +1,7 @@
 ---
 title: "What football managers can teach us about AI and the developers who won’t adapt"
 description: "Every generation of managers who dismissed the last wave got left behind. The same thing is happening right now with AI — and the developers who won’t adapt are already losing ground."
+ogImage: "/images/Football.jpg"
 pubDate: 2026-04-06
 tags: ["AI", "Code", "Design"]
 ---

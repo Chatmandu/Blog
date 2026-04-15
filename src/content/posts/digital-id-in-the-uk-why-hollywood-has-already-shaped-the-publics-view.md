@@ -1,6 +1,7 @@
 ---
 title: "Digital ID in the UK: Why Hollywood has already shaped the public’s view"
 description: "Decades of dystopian film have already written the story of digital ID in the public mind. Why the UK government's rollout has a trust problem Hollywood created — and what it would take to fix it."
+ogImage: "/images/Film.jpg"
 pubDate: 2025-09-27
 tags: ["Communication", "Digital", "Culture"]
 ---

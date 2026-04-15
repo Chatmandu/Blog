@@ -1,6 +1,7 @@
 ---
 title: "Building for the visitors who’ll never visit"
 description: "How AI is quietly rewriting the rules of search — and why that changes everything about how we build websites"
+ogImage: "/images/Web.jpg"
 pubDate: 2025-05-11
 tags: ["AI", "Design", "Digital"]
 ---

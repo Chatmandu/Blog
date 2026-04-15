@@ -1,6 +1,7 @@
 ---
 title: "When safety becomes a loophole"
 description: "What Malcolm Gladwell got me thinking about with self-driving cars, street football, and unintended consequences"
+ogImage: "/images/Ball.jpg"
 pubDate: 2025-06-30
 tags: ["AI", "Culture", "Digital"]
 ---

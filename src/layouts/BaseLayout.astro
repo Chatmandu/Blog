@@ -13,9 +13,12 @@ interface Props {
 const {
   title,
   description = 'Writing by Niall Walsh — ideas, craft, and things worth thinking about.',
-  ogImage,
+  ogImage: ogImageProp,
   type = 'website',
 } = Astro.props;
+
+// Fall back to a default site image for pages without a specific OG image
+const ogImage = ogImageProp ?? '/images/Eye.jpg';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const siteName = 'Niall Walsh';
@@ -40,15 +43,15 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:type" content={type} />
-    {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
-    {ogImage && <meta property="og:image:alt" content={title} />}
+    <meta property="og:image" content={new URL(ogImage, Astro.site)} />
+    <meta property="og:image:alt" content={title} />
 
     <!-- Twitter / X -->
-    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    {ogImage && <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />}
-    {ogImage && <meta name="twitter:image:alt" content={title} />}
+    <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />
+    <meta name="twitter:image:alt" content={title} />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

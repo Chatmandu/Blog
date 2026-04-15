@@ -1,6 +1,7 @@
 ---
 title: "Half term, Netflix, and the marketing lesson I did not expect"
 description: “A teenage question during a Netflix binge became the clearest explanation of value I’ve heard in years. Why ‘I’ll do it myself’ almost always costs more than you think.”
+ogImage: "/images/Netflix.jpg"
 pubDate: 2026-02-19
 tags: [“Marketing”, “Culture”]
 ---

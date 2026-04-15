@@ -1,6 +1,7 @@
 ---
 title: "Nobody lets the moment land"
 description: "The moment passes quicker than the work that got you there."
+ogImage: "/images/Pin.jpg"
 pubDate: 2026-03-25
 tags: ["Design", "Development"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Why your content isn’t showing up in AI search (and how to fix it)"
 description: "The shift from clicks to citations is already here — and the data is stark"
+ogImage: "/images/Search.jpg"
 pubDate: 2026-01-11
 tags: ["AI", "Content Design"]
 ---

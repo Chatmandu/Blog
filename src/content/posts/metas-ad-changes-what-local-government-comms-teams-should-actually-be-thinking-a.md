@@ -1,6 +1,7 @@
 ---
 title: "Meta’s ad changes: what local government comms teams should actually be thinking about"
 description: "Meta’s consent-or-pay shift looks like a platform update. It’s actually a fundamental change in how public sector comms can operate on social — and most teams aren’t ready for what it means."
+ogImage: "/images/Meta.jpg"
 pubDate: 2026-01-30
 tags: ["Marketing", "LocalGov"]
 ---
