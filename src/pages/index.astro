@@ -97,68 +97,73 @@ function readingTime(content: string): string {
       </section>
     )}
 
-    <!-- Recent notes -->
-    {recentNotes.length > 0 && (
-      <section aria-labelledby="notes-label" class="home-notes">
-        <p class="section-label" id="notes-label">
-          Notes
-          <a href="/notes/" class="section-label__link">All notes →</a>
+    <!-- Two-column: essays left, notes right -->
+    <div class="home-columns">
+
+      <!-- Left: post list -->
+      <section aria-labelledby="posts-label" class="home-columns__essays">
+        <p class="section-label" id="posts-label">
+          Essays
+          <span class="section-label__count">{posts.length}</span>
         </p>
-        <ul class="note-rows" role="list">
-          {recentNotes.map(note => (
-            <li class="note-row">
-              <a href={`/notes/${note.slug}/`} class="note-row__link" tabindex="-1" aria-hidden="true"></a>
-              <div class="note-row__body">
-                <h2 class="note-row__title">
-                  <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
+        <ul class="post-rows" role="list">
+          {rest.map(post => (
+            <li class="post-row">
+              <a href={`/blog/${post.slug}/`} class="post-row__link" tabindex="-1" aria-hidden="true"></a>
+              <div class="post-row__body">
+                {post.data.tags.length > 0 && (
+                  <ul class="tags post-row__tags" role="list">
+                    {post.data.tags.map(tag => (
+                      <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+                    ))}
+                  </ul>
+                )}
+                <h2 class="post-row__title">
+                  <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
                 </h2>
+                {post.data.description && (
+                  <p class="post-row__desc">{post.data.description}</p>
+                )}
+                <div class="post-row__meta">
+                  <time datetime={post.data.pubDate.toISOString()}>
+                    {formatDate(post.data.pubDate)}
+                  </time>
+                  <span aria-hidden="true">·</span>
+                  <span>{readingTime(post.body)}</span>
+                </div>
               </div>
-              <time class="note-row__date" datetime={note.data.pubDate.toISOString()}>
-                {formatDate(note.data.pubDate)}
-              </time>
+              <span class="post-row__arrow" aria-hidden="true">→</span>
             </li>
           ))}
         </ul>
       </section>
-    )}
 
-    <!-- Post list — editorial rows, no card boxes -->
-    <section aria-labelledby="posts-label">
-      <p class="section-label" id="posts-label">
-        Essays
-        <span class="section-label__count">{posts.length}</span>
-      </p>
-      <ul class="post-rows" role="list">
-        {rest.map(post => (
-          <li class="post-row">
-            <a href={`/blog/${post.slug}/`} class="post-row__link" tabindex="-1" aria-hidden="true"></a>
-            <div class="post-row__body">
-              {post.data.tags.length > 0 && (
-                <ul class="tags post-row__tags" role="list">
-                  {post.data.tags.map(tag => (
-                    <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
-                  ))}
-                </ul>
-              )}
-              <h2 class="post-row__title">
-                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
-              </h2>
-              {post.data.description && (
-                <p class="post-row__desc">{post.data.description}</p>
-              )}
-              <div class="post-row__meta">
-                <time datetime={post.data.pubDate.toISOString()}>
-                  {formatDate(post.data.pubDate)}
-                </time>
-                <span aria-hidden="true">·</span>
-                <span>{readingTime(post.body)}</span>
-              </div>
-            </div>
-            <span class="post-row__arrow" aria-hidden="true">→</span>
-          </li>
-        ))}
-      </ul>
-    </section>
+      <!-- Right: notes sidebar -->
+      {recentNotes.length > 0 && (
+        <aside aria-labelledby="notes-label" class="home-columns__notes">
+          <p class="section-label" id="notes-label">
+            Notes
+            <a href="/notes/" class="section-label__link">All →</a>
+          </p>
+          <ul class="note-rows" role="list">
+            {recentNotes.map(note => (
+              <li class="note-row note-row--sidebar">
+                <a href={`/notes/${note.slug}/`} class="note-row__link" tabindex="-1" aria-hidden="true"></a>
+                <div class="note-row__body">
+                  <h2 class="note-row__title">
+                    <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
+                  </h2>
+                  <time class="note-row__date" datetime={note.data.pubDate.toISOString()}>
+                    {formatDate(note.data.pubDate)}
+                  </time>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+
+    </div><!-- /home-columns -->
 
   </div>
 </BaseLayout>
