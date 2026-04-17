@@ -48,7 +48,7 @@ Not because we love shiny things, but because craft is how you respect people’
 
 ### Where AI fits, and where it doesn’t
 
-AI is a powerful asset. We should use it.
+AI is a powerful asset. We should use it. The shift happening in [how people find content through AI search](/blog/building-for-the-visitors-wholl-never-visit/) makes this more urgent: if AI systems are synthesising and surfacing your content, the human distinctiveness in that content matters even more, not less.
 
 It can help with structure, drafts, summaries, transcripts, accessibility, and getting the basics done faster so teams can spend more time on the work that needs humans.
 

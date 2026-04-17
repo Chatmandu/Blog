@@ -50,4 +50,6 @@ Polish has its place, but story beats production value every time. Interest medi
 
 Above all, don’t quit too soon. Some posts catch fire immediately. Others smoulder quietly before suddenly taking off weeks later. The point is to keep going. Consistency compounds, and over time it’s what separates the occasional viral hit from a sustained, trusted presence.
 
+There are real implications here for organisations that have built their paid reach on platforms like Meta. [As targeting capabilities erode, owned channels and organic presence become more valuable](/blog/metas-ad-changes-what-local-government-comms-teams-should-actually-be-thinking-a/), not less. The shift to interest media makes that more urgent, not more optional.
+
 That’s the real opportunity here. **Interest media isn’t about shouting the loudest, it’s about showing up, staying curious, and telling stories that stick.**

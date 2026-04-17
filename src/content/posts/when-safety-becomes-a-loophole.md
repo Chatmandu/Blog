@@ -27,3 +27,5 @@ Make something perfectly safe and predictable, and you don’t just create confi
 That’s not cynicism. It’s reality.
 
 So the question isn’t just “how do we make something work?” but “what might people _do_ with it once it does?”
+
+It’s a question with real stakes. The lawsuits emerging around [AI chatbots and harm to young users](/blog/ai-accountability-and-harm-what-a-landmark-tech-verdict-means-for-parents/) are a version of the same problem: products built with good intentions, deployed without fully thinking through the edge cases that come with scale.

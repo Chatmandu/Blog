@@ -28,7 +28,7 @@ The same week this verdict landed, [researchers published findings that not one 
 
 This is not a future problem. It is the current one.
 
-What struck me most about The Proving Ground wasn’t just the legal mechanics, though those are good. It was how Connelly framed the corporate behaviour. Tidalwaiv knew. There were people inside the company who understood what they were releasing into the world and raised the alarm before it shipped.
+What struck me most about The Proving Ground wasn’t just the legal mechanics, though those are good. It was how Connelly framed the corporate behaviour. Tidalwaiv knew. There were people inside the company who understood what they were releasing into the world and raised the alarm before it shipped. Malcolm Gladwell made a related point about self-driving cars: [design something to be perfectly safe and you don’t just create confidence, you create opportunity](/blog/when-safety-becomes-a-loophole/). The loopholes are found later, at scale, by users the designers never modelled.
 
 The villain isn’t the chatbot. It is the decision to deploy something powerful, at scale, into the hands of teenagers without fully thinking through what it might do to the ones who were already struggling.
 

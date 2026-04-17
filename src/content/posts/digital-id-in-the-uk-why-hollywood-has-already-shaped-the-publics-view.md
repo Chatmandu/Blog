@@ -14,7 +14,7 @@ Now, the [UK government’s version](https://www.gov.uk/government/publications/
 
 But here’s the communications problem: Hollywood has already written the story. And when people hear “digital ID,” they don’t picture someone getting a job without dragging a battered folder of paperwork into HR. They picture [Tom Cruise running from drones](https://www.youtube.com/watch?v=lG7DGMgfOb8), or a faceless bureaucrat scanning their DNA.
 
-That challenge is amplified by the way people now consume information. Social media is no longer a shared public square, it’s a collection of echo chambers of interest-driven silos. People see what they’re primed to believe. If you’re suspicious of government, your feed serves up stories about surveillance and slippery slopes. If you’re optimistic about tech, you see promises of efficiency and security. Each camp becomes more entrenched.
+That challenge is amplified by the way people now consume information. Social media is no longer a shared public square — it’s a collection of interest-driven silos, and [algorithms reward topic over network](/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/). People see what they’re primed to believe. If you’re suspicious of government, your feed serves up stories about surveillance and slippery slopes. If you’re optimistic about tech, you see promises of efficiency and security. Each camp becomes more entrenched.
 
 This is why communication around digital ID is such a minefield. On the one hand, the practical benefits are clear: less bureaucracy, faster checks, fewer opportunities for fraud. On the other, the cultural baggage is huge, decades of films, TV shows, and dystopian novels telling us that IDs are about control, not convenience.
 
@@ -22,4 +22,4 @@ And government isn’t starting from a position of trust. Public confidence in o
 
 So the real question isn’t whether digital ID works, technically, it probably will. The question is whether people accept it. That won’t be decided in Whitehall, or even on the gov.uk app. It’ll be decided in the stories people choose to share, the cultural references they fall back on, and the media ecosystems they live inside.
 
-Which means that for communicators, the hard part isn’t designing the system. It’s rewriting the story.
+Which means that for communicators, the hard part isn’t designing the system. It’s rewriting the story. And [stories only land when they come from somewhere real](/blog/the-stories-that-land-always-come-from-somewhere-real/) — not from the official line, but from the people who’ve actually used the thing and found it made their life simpler.

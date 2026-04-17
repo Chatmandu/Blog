@@ -18,7 +18,7 @@ Fast forward to now, and I’m leading the redevelopment of a new [Liverpool Sch
 
 Because today, people aren’t visiting websites in the same way. In many cases, they’re not visiting at all.
 
-Instead, AI search tools, ChatGPT, Perplexity, Google SGE are doing it for them. Scanning, scraping, summarising. Students ask a question like “Which UK universities offer a master’s in global health?” and they don’t get a list of links. They get an answer.
+Instead, AI search tools, ChatGPT, Perplexity, Google SGE are doing it for them. Scanning, scraping, summarising. Students ask a question like “Which UK universities offer a master’s in global health?” and they don’t get a list of links. They get an answer. [The data behind that shift is now stark](/blog/why-your-content-isnt-showing-up-in-ai-search-and-how-to-fix-it/) — and it affects every sector, not just higher education.
 
 Not a click. Not a session. Just a sentence.
 

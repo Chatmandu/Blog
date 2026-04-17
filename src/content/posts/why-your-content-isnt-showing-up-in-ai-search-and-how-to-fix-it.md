@@ -8,7 +8,7 @@ tags: ["AI", "Content Design"]
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bright cobalt blue spotlight beam shines from top-right — but points slightly left of centre, missing a small near-black rectangle in the lower-left quadrant. The rectangle is just out of reach of the light. Off-white cream background. A B&W photographic cutout of a single sealed envelope, placed beneath the rectangle, in the unlit zone.](/images/Search.jpg)
 
-A few months ago, I wrote about how AI is quietly rewriting the rules of search, and why that changes everything about how we build websites. You can read it here: **“**[**Building for the Visitors Who’ll Never Visit**](https://medium.com/@chatmandu/building-for-the-visitors-wholl-never-visit-f79b9ac9ec16)**.”**
+A few months ago, I wrote about how AI is quietly rewriting the rules of search, and why that changes everything about how we build websites. You can read it here: **”**[**Building for the Visitors Who’ll Never Visit**](/blog/building-for-the-visitors-wholl-never-visit/)**.”**
 
 That post was shaped by a website rebuild I was leading. Since then, I’ve spent more time in the data, and the takeaway is simple: this is not a niche concern for SEO people in dark rooms. It affects anyone who owns, runs, funds, or depends on a website.
 
@@ -70,7 +70,7 @@ Experience, expertise, and trust signals are no longer abstract guidelines. Clea
 
 ### 7) Schema markup has a new purpose
 
-Schema is not just about rich results. It also helps machines understand entities, relationships, and context. Organisation, Person, FAQPage, Article, HowTo, these are becoming a way to reduce ambiguity and increase trust.
+Schema is not just about rich results. It also helps machines understand entities, relationships, and context. Organisation, Person, FAQPage, Article, HowTo, these are becoming a way to reduce ambiguity and increase trust. If you're rethinking how you structure content pages, [the case for strategic FAQs](/blog/faqs-from-content-design-sin-to-ai-citation-strategy/) is worth reading alongside this.
 
 ### 8) Freshness is weighted differently per platform
 

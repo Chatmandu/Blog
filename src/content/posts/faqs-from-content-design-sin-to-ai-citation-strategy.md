@@ -10,7 +10,7 @@ tags: ["AI", "Content Design"]
 
 For more than a decade, FAQs have been treated as a red flag in content design. The logic was simple: if you need an FAQ page, your information architecture has already failed.
 
-I still think that instinct was right. But AI-powered search has changed the job. The format we dismissed as lazy can now be one of the easiest ways to get cited, surfaced and trusted, as long as we do it with the same discipline we apply everywhere else.
+I still think that instinct was right. But AI-powered search has changed the job. The format we dismissed as lazy can now be one of the easiest ways to get cited, surfaced and trusted, as long as we do it with the same discipline we apply everywhere else. If you want the bigger picture on [why AI search changes the rules for all content](/blog/why-your-content-isnt-showing-up-in-ai-search-and-how-to-fix-it/), that's worth reading first.
 
 Here’s what’s changed, and how to use FAQs without undoing everything good content design taught us.
 

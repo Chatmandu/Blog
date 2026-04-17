@@ -97,7 +97,7 @@ Know which campaigns are most likely to trigger restrictions or verification, an
 
 ### Strengthen organic presence now
 
-If paid amplification becomes constrained, you need a real baseline of organic reach, trust, and engagement to fall back on.
+If paid amplification becomes constrained, you need a real baseline of organic reach, trust, and engagement to fall back on. That means thinking about [interest media rather than followership](/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/) — content that travels because it hits a topic people care about, not just because it lands in an existing network. And it means thinking about [how AI search is changing where people find information](/blog/why-your-content-isnt-showing-up-in-ai-search-and-how-to-fix-it/), which affects organic discovery as much as it affects paid reach.
 
 ### Document impact
 

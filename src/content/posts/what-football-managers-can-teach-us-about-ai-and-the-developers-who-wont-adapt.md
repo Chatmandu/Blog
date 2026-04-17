@@ -32,10 +32,12 @@ I should say: I’m not a developer. So this isn’t a lecture from someone insi
 
 I have ideas. I’ve always had ideas. What I don’t have anymore is a large development team to support them. What I do have is Claude Code.
 
-Since our new website went live, I’ve been building dashboards. Student recruitment tools. Things that would have required a development sprint, a backlog, a prioritisation meeting, and several weeks of waiting. Now they’re getting built quickly, tested quickly, iterated quickly. Not perfectly, but well, and fast, and in service of what actually matters.
+Since our new website went live, I’ve been [building dashboards](/blog/building-a-he-marketing-analytics-dashboard-in-a-week-with-claude/). Student recruitment tools. Things that would have required a development sprint, a backlog, a prioritisation meeting, and several weeks of waiting. Now they’re getting built quickly, tested quickly, iterated quickly. Not perfectly, but well, and fast, and in service of what actually matters.
 
 The ideas didn’t stop when the resource changed. The support just changed shape.
 
 That’s the thing about the managers who didn’t adapt. They weren’t short of ideas either. They were short of the willingness to let someone, or something, help them deliver those ideas differently.
 
 The game doesn’t wait. It didn’t wait for them. It won’t wait for any of us.
+
+There’s a version of this feeling in [the day a project ships](/blog/nobody-lets-the-moment-land/) too — the strange experience of finishing something and immediately moving on, because the work never really stops.

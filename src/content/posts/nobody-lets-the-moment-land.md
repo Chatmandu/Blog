@@ -10,7 +10,7 @@ tags: ["Design", "Development"]
 
 Tuesday night. Three browser tabs open. A redirect CSV that still isn’t quite right. A pre-launch checklist that’s somehow getting longer.
 
-It’s late. The [LSTM website](https://lstmed.ac.uk/) goes live in the morning after a year of work. CMS migration. Copy written and rewritten. Accessibility audits. Metadata mapped across hundreds of pages. Tracking rebuilt from the ground up. UX reviews. Stakeholder sign-offs. Timelines that kept revealing new timelines underneath them. Staring at things until they stopped looking like words.
+It’s late. The [LSTM website](https://lstmed.ac.uk/) goes live in the morning after a year of work — a year spent [rethinking how the site would reach people who might never actually visit it](/blog/building-for-the-visitors-wholl-never-visit/). CMS migration. Copy written and rewritten. Accessibility audits. Metadata mapped across hundreds of pages. Tracking rebuilt from the ground up. UX reviews. Stakeholder sign-offs. Timelines that kept revealing new timelines underneath them. Staring at things until they stopped looking like words.
 
 Then my phone goes.
 
@@ -44,7 +44,7 @@ I’d like to say today felt like a proper moment. A pause. A breath. Something 
 
 It didn’t, really.
 
-The work isn’t going anywhere. There’s more to build, more to fix, more to learn.
+The work isn’t going anywhere. There’s more to build, more to fix, more to learn — [the dashboard came a few weeks later](/blog/building-a-he-marketing-analytics-dashboard-in-a-week-with-claude/).
 
 But some things deserve a moment, even if you have to make the space for it yourself.
 

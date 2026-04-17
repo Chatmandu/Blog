@@ -38,7 +38,7 @@ It’s the marketing version of my twelve-year-old. The instinct isn’t wrong �
 
 If you don’t invest in reach, you invest in time. If you don’t invest in credibility, you invest in proof. If you don’t invest in momentum, you invest in repetition.
 
-Goldin Auctions can charge commission because it already has the crowd. It’s spent years building an audience that shows up — relationships, reputation, a reason for people to pay attention. That’s what most organisations are really trying to build when they say “we need marketing.” Not a campaign. A crowd.
+Goldin Auctions can charge commission because it already has the crowd. It’s spent years building an audience that shows up — relationships, reputation, a reason for people to pay attention. That’s what most organisations are really trying to build when they say “we need marketing.” Not a campaign. A crowd. And in an [interest media era where algorithms reward topic over network](/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/), building that crowd means showing up consistently around things people actually care about — not just announcing things when you need something from them.
 
 And crowds don’t appear because you built a nice webpage or posted a good video. They’re built by showing up regularly, investing in distribution, being clear and useful over time, and earning trust before you need it.
 

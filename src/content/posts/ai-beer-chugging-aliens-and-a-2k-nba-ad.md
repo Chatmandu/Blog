@@ -37,3 +37,5 @@ For those of us working in comms, marketing or content strategy, that raises a f
 ### What I’m thinking about
 
 As someone who leads content creation in a resource-conscious environment, I’m not about to suggest we swap out our campaigns for surrealist egg-pool chaos. But we are rapidly approaching a point where video production becomes as fast, iterative and accessible as writing. When that happens, and it’s closer than most think, the challenge won’t be how polished something looks, but whether it’s credible, purposeful and trusted.
+
+This connects directly to [the interest media shift](/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/) already underway. If any creator can produce professional-looking content cheaply, the differentiator won’t be production value — it’ll be whether you have something genuine to say. That’s the same argument [developers who’ve embraced AI tools are making](/blog/what-football-managers-can-teach-us-about-ai-and-the-developers-who-wont-adapt/) about code: the scaffold is cheap now. The judgment isn’t.
