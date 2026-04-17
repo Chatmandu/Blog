@@ -3,6 +3,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+
+const siteSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Niall Walsh",
+    "url": "https://manualmode.xyz",
+    "description": "Essays on marketing, technology, AI and the places where they collide.",
+    "author": { "@id": "https://manualmode.xyz/#niall" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://manualmode.xyz/#niall",
+    "name": "Niall Walsh",
+    "url": "https://manualmode.xyz",
+    "sameAs": [
+      "https://www.linkedin.com/in/niallwalsh/",
+      "https://medium.com/@chatmandu"
+    ],
+    "knowsAbout": ["Marketing", "Artificial Intelligence", "Content Design", "Digital Communications"]
+  }
+];
 const posts = allPosts.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
@@ -21,6 +44,7 @@ function readingTime(content: string): string {
 ---
 
 <BaseLayout title="Niall Walsh">
+  <script type="application/ld+json" set:html={JSON.stringify(siteSchema)} slot="head" />
   <div class="container--editorial">
 
     <!-- Masthead hero -->

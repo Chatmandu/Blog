@@ -2,7 +2,8 @@ import { getCollection } from 'astro:content';
 
 export async function GET(context) {
   const site = context.site ?? 'https://manualmode.xyz';
-  const posts = await getCollection('posts');
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const notes = await getCollection('notes', ({ data }) => !data.draft);
 
   const today = new Date().toISOString().split('T')[0];
 
@@ -10,6 +11,7 @@ export async function GET(context) {
   const staticPages = [
     { url: new URL('/', site).href, priority: '1.0', changefreq: 'weekly' },
     { url: new URL('/about/', site).href, priority: '0.5', changefreq: 'monthly' },
+    { url: new URL('/notes/', site).href, priority: '0.6', changefreq: 'weekly' },
   ];
 
   // Blog posts
@@ -22,7 +24,15 @@ export async function GET(context) {
       : new Date(post.data.pubDate).toISOString().split('T')[0],
   }));
 
-  const allPages = [...staticPages, ...postPages];
+  // Notes
+  const notePages = notes.map((note) => ({
+    url: new URL(`/notes/${note.slug}/`, site).href,
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: new Date(note.data.pubDate).toISOString().split('T')[0],
+  }));
+
+  const allPages = [...staticPages, ...postPages, ...notePages];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

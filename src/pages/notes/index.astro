@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allNotes = await getCollection('notes', ({ data }) => !data.draft);
+const notes = allNotes.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date);
+}
+---
+
+<BaseLayout
+  title="Notes"
+  description="Short takes, observations, and things worth a few paragraphs."
+>
+  <div class="article-page">
+    <a href="/" class="back-link" aria-label="Back to all posts">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" aria-hidden="true">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      All posts
+    </a>
+
+    <header class="page-header">
+      <h1 class="article-title">Notes</h1>
+      <p class="article-desc">Short takes. Observations. Things worth a few paragraphs but not a full essay.</p>
+    </header>
+
+    <ul class="post-rows" role="list">
+      {notes.map(note => (
+        <li class="post-row">
+          <a href={`/notes/${note.slug}/`} class="post-row__link" tabindex="-1" aria-hidden="true"></a>
+          <div class="post-row__body">
+            {note.data.tags.length > 0 && (
+              <ul class="tags post-row__tags" role="list">
+                {note.data.tags.map(tag => (
+                  <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+                ))}
+              </ul>
+            )}
+            <h2 class="post-row__title">
+              <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
+            </h2>
+            <div class="post-row__meta">
+              <time datetime={note.data.pubDate.toISOString()}>
+                {formatDate(note.data.pubDate)}
+              </time>
+            </div>
+          </div>
+          <span class="post-row__arrow" aria-hidden="true">→</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

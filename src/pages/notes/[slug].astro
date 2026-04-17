@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes', ({ data }) => !data.draft);
+  return notes.map(note => ({
+    params: { slug: note.slug },
+    props: { note },
+  }));
+}
+
+const { note } = Astro.props;
+const { title, pubDate, tags, sourceUrl, sourceLabel } = note.data;
+const { Content } = await note.render();
+
+const canonicalURL = new URL(`/notes/${note.slug}/`, Astro.site);
+
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date);
+}
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "url": canonicalURL,
+    "datePublished": pubDate.toISOString(),
+    "author": {
+      "@type": "Person",
+      "name": "Niall Walsh",
+      "url": Astro.site,
+      "sameAs": [
+        "https://www.linkedin.com/in/niallwalsh/",
+        "https://medium.com/@chatmandu"
+      ]
+    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalURL },
+    ...(tags.length > 0 && { "keywords": tags.join(", ") })
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": Astro.site },
+      { "@type": "ListItem", "position": 2, "name": "Notes", "item": new URL('/notes/', Astro.site) },
+      { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={`A note by Niall Walsh — ${title}`} type="article">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />
+
+  <div class="article-page">
+    <a href="/notes/" class="back-link" aria-label="Back to notes">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" aria-hidden="true">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      Notes
+    </a>
+
+    <article>
+      <header class="article-header">
+        {tags.length > 0 && (
+          <div class="article-header__tags">
+            <ul class="tags" role="list" aria-label="Tags">
+              {tags.map(tag => (
+                <li><a href={`/tags/${tag}/`} class="tag">{tag}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <h1 class="article-title">{title}</h1>
+
+        <div class="article-meta">
+          <span class="note-badge">Note</span>
+          <span class="article-meta__sep" aria-hidden="true">·</span>
+          <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        </div>
+      </header>
+
+      <div class="article-prose">
+        <div class="prose">
+          <Content />
+
+          {sourceUrl && (
+            <p class="note-source">
+              Via <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
+                {sourceLabel ?? sourceUrl}
+              </a>
+            </p>
+          )}
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
