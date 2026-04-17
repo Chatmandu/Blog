@@ -3,6 +3,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const allNotes = await getCollection('notes', ({ data }) => !data.draft);
+
+const posts = allPosts.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const [featured, ...rest] = posts;
+
+const recentNotes = allNotes
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 
 const siteSchema = [
   {
@@ -10,7 +20,7 @@ const siteSchema = [
     "@type": "WebSite",
     "name": "Niall Walsh",
     "url": "https://manualmode.xyz",
-    "description": "Essays on marketing, technology, AI and the places where they collide.",
+    "description": "Essays and notes on marketing, technology, AI and the places where they collide.",
     "author": { "@id": "https://manualmode.xyz/#niall" }
   },
   {
@@ -26,10 +36,6 @@ const siteSchema = [
     "knowsAbout": ["Marketing", "Artificial Intelligence", "Content Design", "Digital Communications"]
   }
 ];
-const posts = allPosts.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
-const [featured, ...rest] = posts;
 
 function formatDate(date: Date): string {
   return new Intl.DateTimeFormat('en-GB', {
@@ -91,10 +97,35 @@ function readingTime(content: string): string {
       </section>
     )}
 
+    <!-- Recent notes -->
+    {recentNotes.length > 0 && (
+      <section aria-labelledby="notes-label" class="home-notes">
+        <p class="section-label" id="notes-label">
+          Notes
+          <a href="/notes/" class="section-label__link">All notes →</a>
+        </p>
+        <ul class="note-rows" role="list">
+          {recentNotes.map(note => (
+            <li class="note-row">
+              <a href={`/notes/${note.slug}/`} class="note-row__link" tabindex="-1" aria-hidden="true"></a>
+              <div class="note-row__body">
+                <h2 class="note-row__title">
+                  <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
+                </h2>
+              </div>
+              <time class="note-row__date" datetime={note.data.pubDate.toISOString()}>
+                {formatDate(note.data.pubDate)}
+              </time>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <!-- Post list — editorial rows, no card boxes -->
     <section aria-labelledby="posts-label">
       <p class="section-label" id="posts-label">
-        All writing
+        Essays
         <span class="section-label__count">{posts.length}</span>
       </p>
       <ul class="post-rows" role="list">
