@@ -759,19 +759,21 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--c-accent);
+  color: #fff;
   text-decoration: none;
   padding: 2px 10px;
-  background: color-mix(in srgb, var(--c-accent) 7%, transparent);
-  border: 1px solid color-mix(in srgb, var(--c-accent) 28%, transparent);
+  background: var(--c-accent);
+  border: 1px solid var(--c-accent);
   border-radius: 3px;
   transition:
     background-color var(--duration) var(--ease-smooth),
-    color var(--duration) var(--ease-smooth);
+    opacity var(--duration) var(--ease-smooth);
 }
 .tag:hover {
-  background-color: var(--c-accent);
-  color: white;
+  background-color: var(--c-accent-h);
+  border-color: var(--c-accent-h);
+  color: #fff;
+  opacity: 0.9;
 }
 
 /* ═══════════════════════════════════════════════════════
