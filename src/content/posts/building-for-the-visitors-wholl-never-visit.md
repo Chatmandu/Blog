@@ -44,4 +44,4 @@ But the opportunity? That’s never been bigger.
 
 Because if we get this right, if we build a site that still informs, engages and earns trust even when it’s not the final destination, we’ll have done more than launch a new website.
 
-We’ll have created a platform that’s ready for how people _actually_ find and experience us in the age of AI.
+We’ll have created a platform that’s ready for how people _actually_ find and experience us in the age of AI. The LSTM site launched in March 2026, and [what five weeks of post-launch data revealed](/blog/what-ten-years-of-unruly-content-taught-me-about-migration/) confirmed that instinct — the content that matters most is rarely the content the analytics told us to keep.
