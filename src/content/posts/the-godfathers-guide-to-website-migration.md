@@ -64,4 +64,4 @@ Then open GSC. And keep it open.
 
 ---
 
-*Written at approximately 1am while watching The Godfather and waiting for GSC to update. No redirects were harmed in the making of this post. The more considered version of all this is [here](/blog/what-ten-years-of-unruly-content-taught-me-about-migration/).*
+*Written at approximately 1am while watching The Godfather and waiting for GSC to update. No redirects were harmed in the making of this post.*
