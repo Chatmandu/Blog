@@ -10,7 +10,7 @@ There's a version of a website migration that goes like this. You audit your con
 
 That version is largely fictional.
 
-It's especially fictional when the migration is your first project in a new job. I joined Liverpool School of Tropical Medicine as Director of Marketing a matter of weeks before this work began. Use of data in marketing decisions had been limited before I arrived. Someone five years in would have known which pages mattered to which research group, which PDFs got passed around at conferences, which obscure URL was actually a flagship piece of work. I didn't have that. What I had was the data I could read and the best interpretation I could put on it.
+It's especially fictional when the migration is your first project in a new job. I joined Liverpool School of Tropical Medicine a matter of weeks before this work began. Use of data in marketing decisions had been limited before I arrived. Someone five years in would have known which pages mattered to which research group, which PDFs got passed around at conferences, which obscure URL was actually a flagship piece of work. I didn't have that. What I had was the data I could read and the best interpretation I could put on it.
 
 The reality was that we launched a new WordPress site on 25 March 2026 with around 2,000 pages, condensed from a Drupal site that had accumulated roughly 11,000 URLs over a decade. We made those decisions as carefully as we could. We used traffic data, stakeholder input, a content audit spreadsheet that became its own small project, and a lot of judgment calls under time pressure. I did ok.
 
@@ -48,9 +48,9 @@ You make the best decisions you can with the information available, and then the
 
 ### What five weeks of GSC revealed
 
-Within the first five weeks, a few things became clear. A page about pneumonia complications — a standalone clinical reference page that had been on the old Drupal site for years — was sitting at position 3.48 in Google for a competitive clinical search term and generating over 15,000 impressions a month. We hadn't migrated it. It wasn't in the content plan. It had modest traffic by our standards but a very specific audience, and Google had rewarded it with a strong ranking built up over years of indexing.
+Within the first five weeks, a few things became clear. A page about pneumonia complications, a standalone clinical reference page that had been on the old Drupal site for years was sitting at position 3.48 in Google for a competitive clinical search term and generating over 15,000 impressions a month. We hadn't migrated it. It wasn't in the content plan. It had modest traffic by our standards but a very specific audience, and Google had rewarded it with a strong ranking built up over years of indexing.
 
-Several PDFs hosted on the old server — facilitator manuals for obstetric care training programmes used in sub-Saharan Africa — were being served directly by Google as search results, collecting thousands of impressions from healthcare professionals in exactly the countries we work in. These weren't even pages. They were files sitting in a Drupal uploads folder. No analytics. No visibility in any dashboard we'd looked at during the audit. Until post-launch GSC data showed them generating traffic we'd never attributed to the site at all.
+Several PDFs hosted on the old server, facilitator manuals for obstetric care training programmes used in sub-Saharan Africa were being served directly by Google as search results, collecting thousands of impressions from healthcare professionals in exactly the countries we work in. These weren't even pages. They were files sitting in a Drupal uploads folder. No analytics. No visibility in any dashboard we'd looked at during the audit. Until post-launch GSC data showed them generating traffic we'd never attributed to the site at all.
 
 A research unit, Emergency Obstetric Care and Quality of Care, had accumulated traffic across dozens of Drupal sub-pages that, taken individually, looked unremarkable. Aggregated across all related URLs post-launch, it was generating close to 300 visits a month from a specific professional audience. The kind of audience you'd spend significant budget trying to reach through paid activity.
 
@@ -60,7 +60,7 @@ None of these were failures of the audit process. They were limitations of the s
 
 There's a version of "data-led decision making" that can give you false confidence in a migration context. The data you have pre-launch is a partial picture. It tells you about the content your current audience finds and uses in ways that GA4 can measure. It tells you relatively little about the content sitting quietly in your site's infrastructure, serving audiences you've never specifically tracked, ranking for queries you've never specifically targeted, or accumulating link equity from sources you've never specifically monitored.
 
-Post-launch, the signal set changes. GSC becomes more granular and more accurate. You can see impressions, not just sessions. You can see which queries are arriving at which URLs. You can see how the old site's surviving pages are ranking against the new site's pages for the same terms — a real-time picture of cannibalisation that no pre-launch audit can replicate.
+Post-launch, the signal set changes. GSC becomes more granular and more accurate. You can see impressions, not just sessions. You can see which queries are arriving at which URLs. You can see how the old site's surviving pages are ranking against the new site's pages for the same terms, a real-time picture of cannibalisation that no pre-launch audit can replicate.
 
 A migration doesn't end at launch. Launch is when the most useful data starts arriving.
 
@@ -82,4 +82,4 @@ You strive for the plan. The plan will have gaps. The gaps are where the next pl
 
 ---
 
-*Niall Walsh is Director of Marketing at Liverpool School of Tropical Medicine. He writes about higher education marketing, digital strategy, and the gap between what the plan says and what actually happens. A considerably less serious companion to this post — [The Godfather's Guide to Website Migration](/blog/the-godfathers-guide-to-website-migration/) — was written at 1am the same week.*
+*A considerably less serious companion to this post — [The Godfather's Guide to Website Migration](/blog/the-godfathers-guide-to-website-migration/) — was written at 1am the same week.*
