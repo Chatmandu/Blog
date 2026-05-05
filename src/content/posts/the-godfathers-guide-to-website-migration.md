@@ -6,6 +6,8 @@ pubDate: 2026-05-02
 tags: ["Digital", "Marketing", "Culture"]
 ---
 
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Multiple bold cobalt blue arrows — varying in weight, approaching from the left and upper-left — each bend sharply at a single vertical axis near the centre of the frame, redirecting rightward and bleeding off the right edge. The bend is abrupt, not curved: a decision point, not a drift. A B&W photographic cutout of a Sicilian Cannoli, placed precisely at the vertical axis where all arrows turn.](/images/godfather.jpg)
+
 I watched [The Godfather](https://www.imdb.com/title/tt0068646/) last night while five weeks of post-launch redirect data loaded in another tab. By the third act I realised that Francis Ford Coppola had essentially made a film about website migration. Allow me to explain.
 
 ### "Leave the gun. Take the cannoli."
