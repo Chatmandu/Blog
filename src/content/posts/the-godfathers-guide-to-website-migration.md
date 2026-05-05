@@ -1,7 +1,7 @@
 ---
-title: "The Godfather's Guide to Website Migration"
+title: "The Godfather's guide to website migration"
 description: "I watched The Godfather while five weeks of post-launch redirect data loaded in another tab. By the third act I realised Francis Ford Coppola had essentially made a film about website migration."
-ogImage: "/images/IMG_4095.jpg"
+ogImage: "/images/godfather.jpg"
 pubDate: 2026-05-02
 tags: ["Digital", "Marketing", "Culture"]
 ---
