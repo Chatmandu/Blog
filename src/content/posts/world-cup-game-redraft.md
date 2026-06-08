@@ -5,6 +5,9 @@ ogImage: "/images/world-cup.jpg"
 pubDate: 2026-06-08
 tags: ["Digital", "AI", "Culture"]
 ---
+
+![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Eight bold vermillion rectangles of varying widths are stacked in a rough column on the left side of the frame, bleeding off the left edge — compressed, jostling. One rectangle breaks cleanly from the stack, larger than the rest, pulling rightward into open space, driven by a short sharp forest green arrow. The remaining seven stay behind. A B&W photographic cutout of a single football trophy — small, front-facing, simplified silhouette — placed inside the lone breakaway rectangle..](/images/world-cup.jpg)
+
 It started, the way a lot of these things do, with me trying to show the boys something something I hope they might find interesting.
 
 The thing was [38-0](https://38-0.app/), a gloriously simple Premier League simulation. You spin for a club, draft a player, build an XI, and watch it try to win the league without dropping a point. It has no business being as addictive as it is. The boys took one look and inside ninety seconds had moved past "this is fun" to "why isn't there a World Cup one?"
