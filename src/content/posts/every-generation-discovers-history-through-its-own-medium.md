@@ -1,6 +1,6 @@
 ---
 title: "Every generation discovers history through the medium of its time"
-description: "Chloe vs History is AI-generated, a bit annoying, and possibly the next way a generation falls into the past. On formats, scepticism, and getting a twelve-year-old to care."
+description: "Chloe vs History is AI-generated, a bit annoying, and maybe the next way a generation falls into the past. On formats, scepticism and curiosity."
 ogImage: "/images/discovering-history.jpg"
 pubDate: 2026-06-26
 tags: ["AI", "Culture", "Digital"]
@@ -12,11 +12,11 @@ My twelve-year-old had his end-of-year exams this week, and getting him to revis
 
 It rolled back the years. My first job was developing eLearning applications for kids exactly his age. And here I was, decades later, fighting the same battle: how do you get a twelve-year-old to actually *care* about what's on the page?
 
-Frustrated that so little had changed, I went looking for ideas and stumbled across Chloe vs History. I found it annoying. I also thought it was an incredible concept. And it got me thinking.
+Frustrated that so little had changed, I went looking for ideas and stumbled across [Chloe vs History](https://www.youtube.com/channel/UCZB1r1In9RfE7tpVrYgcjLQ). I found it annoying. I also thought it was an incredible concept. And it got me thinking.
 
 When people criticise AI-generated content, I sometimes wonder if they're judging the technology rather than the idea.
 
-History has always evolved alongside the way we tell stories. It moved from books to radio, then television, documentaries, podcasts and YouTube. Crucially, none of those formats replaced the one before it. Radio didn't kill the book, and YouTube hasn't killed the documentary. Each was a new layer, another way in. AI-generated first-person experiences feel like the next layer in that progression, not a departure from it.
+History has always evolved alongside the way we tell stories. It moved from books to radio, then television, documentaries, podcasts and YouTube. Crucially, none of those formats replaced the one before it. Radio didn't kill the book, and YouTube hasn't killed the documentary. Each was a new layer, another way in. AI-generated first-person experiences feel like the next layer in that progression, not a departure from it. It's the same idea I keep circling back to: [discoverability through interest rather than hierarchy](/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/), curiosity as the way in.
 
 Take Chloe vs History. Personally, I find Chloe quite annoying. But then again, I'm sure plenty of people found documentaries annoying when they first emerged, or dismissed podcasts as people talking into microphones. Every new format has its sceptics.
 
@@ -24,9 +24,9 @@ The interesting part isn't that Chloe is AI. The interesting part is that someon
 
 It's the same instinct, really, that had me clumsily turning revision notes into bedtime quizzes. I wasn't trying to replace the textbook. I was trying to find a door my son might actually walk through. Chloe's creator just had far better tools to build that door than I did.
 
-And perhaps that's why it resonates. Most people aren't going to YouTube looking for a perfectly referenced history lecture. They're looking for a reason to care. If a five-minute video about Pompeii, Ancient Egypt or medieval London sparks enough curiosity for someone to pick up a book, watch a documentary or visit a museum, it's done something worthwhile.
+And perhaps that's why it resonates. Most people aren't going to YouTube looking for a perfectly referenced history lecture. They're looking for a reason to care. If a five-minute video about [Pompeii](https://www.britannica.com/place/Pompeii), Ancient Egypt or medieval London sparks enough curiosity for someone to pick up a book, watch a documentary or visit a museum, it's done something worthwhile. [The stories that land always come from somewhere real](/blog/the-stories-that-land-always-come-from-somewhere-real/); the format is just the delivery.
 
-That doesn't mean accuracy doesn't matter. It absolutely does, and this is where the scepticism deserves a fair hearing rather than a wave of the hand. A book has a named author and a bibliography you can argue with. Chloe has neither. When a video is this confident and this polished, a mistake doesn't look like a mistake; it looks like fact. That's a real risk, and pretending otherwise would be dishonest.
+That doesn't mean accuracy doesn't matter. It absolutely does, and this is where the scepticism deserves a fair hearing rather than a wave of the hand. A book has a named author and a bibliography you can argue with. Chloe has neither. When a video is this confident and this polished, a mistake doesn't look like a mistake; it looks like fact. That's a real risk, and pretending otherwise would be dishonest, [especially for the parents trying to work out what their kids should trust](/blog/ai-accountability-and-harm-what-a-landmark-tech-verdict-means-for-parents/).
 
 But perhaps we're still asking the wrong question. Instead of asking whether AI can replace historians, we should be asking whether it can inspire more people to become interested in history in the first place, and then send them looking for the named authors and the bibliographies. The format that sparks the curiosity rarely has to be the one that satisfies it.
 
