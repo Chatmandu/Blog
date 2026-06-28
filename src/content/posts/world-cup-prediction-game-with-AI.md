@@ -6,7 +6,7 @@ pubDate: 2026-06-08
 tags: ["Digital", "AI", "Culture"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Eight bold vermillion rectangles of varying widths are stacked in a rough column on the left side of the frame, bleeding off the left edge — compressed, jostling. One rectangle breaks cleanly from the stack, larger than the rest, pulling rightward into open space, driven by a short sharp forest green arrow. The remaining seven stay behind. A B&W photographic cutout of a single football trophy — small, front-facing, simplified silhouette — placed inside the lone breakaway rectangle..](/images/world-cup.jpg)
+![Saul Bass-style poster evoking building a World Cup prediction game with AI in an afternoon.](/images/world-cup.jpg)
 
 It started, the way a lot of these things do, with me trying to show the boys something I hope they might find interesting.
 

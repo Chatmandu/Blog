@@ -1,14 +1,14 @@
 ---
 title: "The stories that land always come from somewhere real"
 description: "What a film scene can teach us about storytelling in global health, and why AI should support the work, not replace the human part."
-ogImage: "/images/Moments.jpg"
+ogImage: "/images/moments.jpg"
 pubDate: 2026-01-30
 tags: ["Communication", "Marketing", "Culture"]
 ---
 
 _What a film scene can teach us about storytelling in global health, and why AI should support the work, not replace the human part._
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large warm teal rectangle fills the upper half. Below it: dusty rose, slightly rougher in texture. Where the two meet: a jagged, imperfect torn edge — not a clean cut, like ripped paper. A B&W photographic cutout of a crumpled sheet of paper, one corner visible, placed at the torn seam. Flat screen-print texture, heavy grain.](/images/Moments.jpg)
+![Saul Bass-style poster evoking storytelling in global health that comes from somewhere real.](/images/moments.jpg)
 
 saw a clip of Matt Damon talking about a hospital scene in The Smashing Machine. In it, Dwayne Johnson’s character breaks down completely. Not in a neat, cinematic way. In a messy, human way.
 

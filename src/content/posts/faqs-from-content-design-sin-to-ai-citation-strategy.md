@@ -16,7 +16,7 @@ faqs:
     answer: "On the pages where people actually drop out or hesitate — service pages, fees and funding, eligibility, timelines — not on one separate FAQ page. Use 5 to 10 real questions per page, in your audience's wording, each with a tight answer first and detail below, and point back to the definitive guidance rather than duplicating it."
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large navy blue question mark dominates the left two-thirds of the frame, bleeding off the top and bottom edges. Its tail curves and terminates in a bold warm amber arrow pointing right — the question mark becomes directional. Off-white cream background. A B&W photographic cutout of a printed index card (close-up, ruled lines visible, corner dog-eared) placed at the tip of the arrow.](/images/Faq.jpg)
+![Saul Bass-style poster: a large question mark whose tail curves into an arrow pointing at an index card, evoking FAQs as a route to AI citation.](/images/Faq.jpg)
 
 For more than a decade, FAQs have been treated as a red flag in content design. The logic was simple: if you need an FAQ page, your information architecture has already failed.
 

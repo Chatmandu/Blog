@@ -1,12 +1,12 @@
 ---
 title: "Digital ID in the UK: Why Hollywood has already shaped the public’s view"
 description: "Decades of dystopian film have already written the story of digital ID in the public mind. Why the UK government's rollout has a trust problem Hollywood created — and what it would take to fix it."
-ogImage: "/images/Film.jpg"
+ogImage: "/images/film.jpg"
 pubDate: 2025-09-27
 tags: ["Communication", "Digital", "Culture"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold near-black diagonal band cuts from top-left to bottom-right, off-centre, weighted toward the right. On the upper-left: off-white cream. On the lower-right: vermillion. A B&W photographic cutout of a 35mm film strip (just three frames, no images inside) placed precisely across the diagonal seam. Flat screen-print texture. Palette: vermillion, near-black, off-white cream. No text. No gradients.](/images/Film.jpg)
+![Saul Bass-style poster with a filmstrip motif, evoking how Hollywood has shaped public views of digital ID.](/images/film.jpg)
 
 In the films, a digital ID usually means you’re in trouble. In _Gattaca_ , it tells you your DNA isn’t good enough. In _Minority Report_ , shop walls shout your name while you’re just trying to buy a pair of socks. In _Blade Runner 2049_ , identity checks decide whether you’re human or something less. Even in lighter stuff like _Black Mirror_ , the idea of an all-encompassing identity system usually spirals into social scoring and surveillance. On screen, digital IDs are almost always a bad sign.
 

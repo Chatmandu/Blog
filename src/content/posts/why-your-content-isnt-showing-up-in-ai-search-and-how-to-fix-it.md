@@ -16,7 +16,7 @@ faqs:
     answer: "Yes, and it's common. Many sites added blocks for GPTBot, ClaudeBot, Google-Extended and others during the early AI-anxiety wave, or have robots.txt rules that block more than intended. If those agents can't fetch your pages, you cannot be cited. A five-minute robots.txt check is often the single highest-impact fix."
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bright cobalt blue spotlight beam shines from top-right — but points slightly left of centre, missing a small near-black rectangle in the lower-left quadrant. The rectangle is just out of reach of the light. Off-white cream background. A B&W photographic cutout of a single sealed envelope, placed beneath the rectangle, in the unlit zone.](/images/Search.jpg)
+![Saul Bass-style poster: a cobalt spotlight beam just missing a hidden envelope in the dark, evoking content that AI search can't see.](/images/Search.jpg)
 
 **The short version:** your content usually isn't showing up in AI answers because the AI systems either can't access it, can't extract a clean answer from it, or don't yet trust it enough to quote. Fixing it means unblocking AI crawlers, structuring pages answer-first, and building clear author and source signals — not just trying to rank higher. The rest of this piece explains why, and what to do about each.
 

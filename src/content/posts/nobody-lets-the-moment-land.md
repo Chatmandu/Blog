@@ -6,7 +6,7 @@ pubDate: 2026-03-25
 tags: ["Design", "Development"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large warm teal circle, almost complete, with a small gap at the top — like a finish line that immediately becomes a starting line. The circle sits off-centre, leaning left, bleeding off the left edge. At the gap: a B&W photographic cutout of a single safety pin, open, placed at the break as if the circle is held there temporarily.](/images/Pin.jpg)
+![Saul Bass-style poster evoking how a moment passes faster than the work that earned it.](/images/Pin.jpg)
 
 Tuesday night. Three browser tabs open. A redirect CSV that still isn’t quite right. A pre-launch checklist that’s somehow getting longer.
 

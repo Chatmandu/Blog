@@ -6,7 +6,7 @@ pubDate: 2026-02-19
 tags: ["Marketing", "Culture"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Multiple forest green arrows of different sizes converge on a single small point at the centre-right of the frame — some from the left, some from above, some from below, all pointing inward. The convergence point is a small B&W photographic cutout of a numbered auction paddle (just the paddle, no holder visible), face-on. Deep ochre background. Flat screen-print texture. Palette: forest green, deep ochre, off-white cream. Arrows bleed off left and top edges.](/images/Netflix.jpg)
+![Saul Bass-style poster: green arrows converging on a numbered auction paddle, evoking paying for reach, trust and momentum.](/images/Netflix.jpg)
 
 It’s February half term, which in our house usually means swimming, cinema, and at some point all four of us on the sofa watching something none of us would have chosen alone.
 

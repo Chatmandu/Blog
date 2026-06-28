@@ -14,7 +14,7 @@ faqs:
     answer: "Be the clearest, most authoritative source on the questions that matter to you. State key facts plainly and early, keep them consistent across pages, attribute them to a named author with credentials and dates, and make sure AI crawlers can actually access the content. Ambiguity and hedging are what get you misquoted or ignored."
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large cobalt blue rectangle dominates the left half, bleeding off the left edge. A warm amber arrow points right into empty cream space — but nothing is at the arrow's destination. A B&W photographic cutout of a single empty chair, seen from behind, mid-frame, facing into the blue rectangle. Strong left-to-right tension. Flat screen-print texture. Palette: cobalt blue, warm amber, off-white cream.](/images/Web.jpg)
+![Saul Bass-style poster: an empty chair facing into a blue void with an arrow pointing at nothing, evoking websites built for visitors who never arrive.](/images/Web.jpg)
 
 The first website I built was at the [University of Liverpool](https://liv.ac.uk/) in the late 1990s. It was for a project, and it was exactly what you’d expect from a late-90s student site: a few basic pages, a single photo (that took too long to load), and a hit counter proudly ticking away at the bottom of the screen.
 

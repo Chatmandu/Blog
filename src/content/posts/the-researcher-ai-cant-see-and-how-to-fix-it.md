@@ -17,7 +17,7 @@ faqs:
     answer: "There's a clear line. Removing ambiguity so true things about you are findable is hygiene and stewardship. Inflating your importance beyond what your work warrants is gaming — and it doesn't work for long. Visibility is not the same as rigour, and surfacing in an AI answer says nothing about the quality of the work itself."
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A black-and-white photographic cutout of an old brass key sits at the centre, with bold cobalt-blue arrows radiating outward to the right and rays converging from the left, on a warm amber background. Flat screen-print texture. The concept: several doors, each with its own lock.](/images/revision.jpg)
+![Saul Bass-style poster: a brass key ringed by outward-pointing arrows, evoking several AI front doors, each with its own lock.](/images/revision.jpg)
 
 The work is good. The machine can't see it.
 

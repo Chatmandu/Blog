@@ -6,7 +6,7 @@ pubDate: 2025-06-30
 tags: ["AI", "Culture", "Digital"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A long forest green horizontal arrow spans the full width of the frame, pointing right, positioned in the lower third. At the arrow's tip, off-centre right: a small B&W photographic cutout of a soccer ball, precisely placed to interrupt the arrow's path. The arrow bends very slightly around the ball — it can't go through. Deep ochre background. Flat screen-print texture. Palette: forest green, deep ochre, off-white.](/images/Ball.jpg)
+![Saul Bass-style poster with a ball motif, evoking how safety measures can become a loophole.](/images/Ball.jpg)
 
 I saw something recently with Malcolm Gladwell talking about self-driving cars in urban settings, and it’s been sitting with me ever since.
 

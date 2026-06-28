@@ -16,7 +16,7 @@ faqs:
     answer: "Treat social platforms as rented space and build what you own: first-party data (email sign-ups, service alerts, CRM), a diversified channel mix (search, local press, partnerships, community networks), and a real organic baseline. Audit which campaign types are most likely to trigger restrictions, and document the impact on recruitment, consultation and public health outcomes."
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A navy blue horizontal platform bisects the frame, slightly off-centre downward. Above it: stable, ordered geometry in stone grey, upright. Below it: the same shapes falling, tilted, fragmenting — some bleedings off the bottom edge. A B&W photographic cutout of a single cracked brick, placed at the platform edge where the fracture begins. Off-white cream background. Flat screen-print texture.](/images/Meta.jpg)
+![Saul Bass-style poster: an ordered grey structure fracturing below a cracked brick, evoking Meta's ad changes destabilising public sector comms.](/images/Meta.jpg)
 
 I saw a post in a local government group asking people’s views on the new opt-in ads situation on Facebook and Instagram. It got me thinking.
 

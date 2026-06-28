@@ -6,7 +6,7 @@ pubDate: 2026-06-26
 tags: ["AI", "Culture", "Digital"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. Five horizontal bars stacked like geological strata fill the lower two-thirds of the frame, each a slightly different warm tone, the topmost a brighter saturated amber that sits just proud of the others. A clean vertical gap cuts through all five bars near the right, like a doorway sliced through rock. A B&W photographic cutout of a single child seen from behind, small, stepping into the gap. Flat screen-print texture, visible grain. Palette: terracotta, ochre, amber, off-white cream, near-black. No text. No gradients. Square 1:1.](/images/discovering-history.jpg)
+![Saul Bass-style poster evoking each generation rediscovering history through the media format of its time.](/images/discovering-history.jpg)
 
 My twelve-year-old had his end-of-year exams this week, and getting him to revise was painful. I tried everything. At one point I was using AI to turn his revision notes into "podcast" quizzes he could listen to before bed, anything to make the material stick without it feeling like work.
 

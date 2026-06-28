@@ -6,7 +6,7 @@ pubDate: 2026-04-06
 tags: ["AI", "Code", "Design"]
 ---
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold forest green diagonal arrow cuts from bottom-left to top-right, bleeding off both edges. On the left of the arrow: a near-black vertical bar, slightly tilted — resisting the direction. The arrow passes through and beyond it regardless. A B&W photographic cutout of a football boot sole (close-up, bottom facing out, studs visible) placed at the point of intersection. Deep ochre background.](/images/Football.jpg)
+![Saul Bass-style poster with a football motif, evoking what managers teach us about adapting to AI.](/images/Football.jpg)
 
 When Arsène Wenger arrived at Arsenal in 1996, the reaction from parts of [English football was somewhere between scepticism and contempt](https://www.standard.co.uk/sport/football/arsene-wenger-1-000-matches-we-wondered-who-he-was-now-we-ll-never-forget-9207077.html). A Frenchman. Ideas about nutrition, sports science, training methods that didn’t look like training. Players who’d never heard of him. A league that had been doing things the same way for decades and saw no particular reason to change.
 

@@ -8,13 +8,7 @@ tags: ["AI", "Content Design", "Marketing"]
 
 _What a chaotic AI-generated TV commercial tells us about where content creation is heading_
 
-![Graphic design in the style of a 1950s–60s American film poster by Saul Bass.
-A bold vermillion rectangle fills the upper-left quadrant, slightly off-kilter.
-Inside it: a B&W photographic cutout of a single eye, staring directly out,
-calm and unblinking. A near-black arrow points directly at the eye from the
-lower right. Off-white cream background. Diagonal tension, bottom-right to
-upper-left. Flat screen-print texture, visible grain. Palette: vermillion,
-near-black, off-white cream.](/images/Eye.jpg)
+![Saul Bass-style poster with a single staring eye, evoking chaotic AI-generated advertising.](/images/Eye.jpg)
 
 It’s only been a few weeks since [Veo 3](https://deepmind.google/models/veo/) launched, and we’re already seeing AI-generated content hit prime-time TV.
 

@@ -6,6 +6,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="About"
   description="A little about Niall Walsh - who I am and what I write about."
 >
+  <script
+    type="application/ld+json"
+    slot="head"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "url": new URL("/about/", Astro.site).href,
+      "mainEntity": { "@id": `${Astro.site}#niall` },
+    })}
+  />
   <div class="article-page">
     <a href="/" class="back-link" aria-label="Back to all posts">
       <svg
