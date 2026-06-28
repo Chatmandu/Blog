@@ -3,7 +3,17 @@ title: "Meta’s ad changes: what local government comms teams should actually b
 description: "Meta’s consent-or-pay shift looks like a platform update. It’s actually a fundamental change in how public sector comms can operate on social — and most teams aren’t ready for what it means."
 ogImage: "/images/Meta.jpg"
 pubDate: 2026-01-30
+updatedDate: 2026-06-28
 tags: ["Marketing", "LocalGov"]
+faqs:
+  - question: "What is Meta's 'consent or pay' model in the UK?"
+    answer: "Meta offers UK users a choice: consent to personalised ads, or pay for an ad-free subscription, priced at £2.99/month on web and £3.99/month on iOS and Android. The ICO has said Meta significantly lowered the UK starting price during its engagement. The UK position is currently more accommodating than the EU's."
+  - question: "How do Meta's ad changes affect local government and public sector comms?"
+    answer: "Councils don't sell trainers — they reach residents about housing, health, community safety and recruitment, much of which sits uncomfortably close to Meta's 'social issue' framing. The bigger risk is that the residents most likely to opt out of tracking are often the engaged, civically active people councils most need to reach, so a capability the sector relies on is quietly eroding."
+  - question: "Are political and social issue ads banned on Meta?"
+    answer: "In the EU, yes — Meta stopped accepting political, electoral and social issue ads from early October 2025. It's off, not restricted. The UK hasn't mirrored that, but the direction of travel matters: if a single platform can remove a whole category of comms overnight, public bodies should plan around it."
+  - question: "What should councils do about reduced Meta ad targeting?"
+    answer: "Treat social platforms as rented space and build what you own: first-party data (email sign-ups, service alerts, CRM), a diversified channel mix (search, local press, partnerships, community networks), and a real organic baseline. Audit which campaign types are most likely to trigger restrictions, and document the impact on recruitment, consultation and public health outcomes."
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A navy blue horizontal platform bisects the frame, slightly off-centre downward. Above it: stable, ordered geometry in stone grey, upright. Below it: the same shapes falling, tilted, fragmenting — some bleedings off the bottom edge. A B&W photographic cutout of a single cracked brick, placed at the platform edge where the fracture begins. Off-white cream background. Flat screen-print texture.](/images/Meta.jpg)

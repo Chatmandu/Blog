@@ -3,7 +3,15 @@ title: "Building a HE marketing analytics dashboard in a week with Claude"
 description: "The analytics setup was there. The time, skills, and budget weren’t. What happens when you build it anyway."
 ogImage: "/images/Dashboard.jpg"
 pubDate: 2026-04-11
+updatedDate: 2026-06-28
 tags: ["AI", "Code", "Design", "Marketing"]
+faqs:
+  - question: "Can you build a marketing analytics dashboard with AI like Claude?"
+    answer: "Yes. The analytics setup most teams need already exists — GA4, GTM, Search Console — but the gap is the time, technical capacity and budget to turn that data into the answers a marketer actually asks. Working with an AI assistant closes that distance, letting you build a working dashboard in days rather than commissioning a project that never gets funded."
+  - question: "Why isn't GA4 enough for marketing reporting?"
+    answer: "GA4 can hold all the data, but it isn't built to ask the questions a marketer needs — which courses are attracting applicants, where researchers are finding you, whether organic presence is building. The information is there; the insight isn't. A purpose-built dashboard reframes the same data around the decisions you're actually trying to make."
+  - question: "Do you need to be a developer to build a dashboard with AI?"
+    answer: "No. The point of building it this way is that you don't need a spare developer, a budget line, or a long project. You need to know the questions worth answering and let the AI handle the technical assembly. The marketer's judgement about what matters is the scarce part — the code is the easy part now."
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bold cobalt blue vertical bar on the left — like a column or scaffold — bleeds off the top and bottom edges. A warm amber horizontal beam extends rightward from its upper third, forming a rough L-shape. The structure is clearly unfinished: lines overrun their intersections. A B&W photographic cutout of a single steel set square (drafting tool), placed diagonally at the intersection, corner pointing into the frame. Off-white cream background. Flat screen-print texture.](/images/Dashboard.jpg)
