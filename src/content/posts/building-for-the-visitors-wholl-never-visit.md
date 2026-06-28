@@ -3,7 +3,15 @@ title: "Building for the visitors who’ll never visit"
 description: "How AI is quietly rewriting the rules of search — and why that changes everything about how we build websites"
 ogImage: "/images/Web.jpg"
 pubDate: 2025-05-11
+updatedDate: 2026-06-28
 tags: ["AI", "Design", "Digital"]
+faqs:
+  - question: "What does it mean to build a website for AI search?"
+    answer: "It means designing so your content survives being scraped, summarised and quoted by AI tools, not just clicked. In practice that's clear answer-first writing, strong structure, visible author and source signals, and machine-readable markup — so that when a tool answers on your behalf, your meaning, credibility and voice still come through."
+  - question: "Will AI search reduce my website traffic?"
+    answer: "For many sites, yes — a growing share of searches now end without a click because people get the answer directly. The goal shifts from winning the visit to being the source the AI trusts and cites. You can lose raw sessions while still gaining influence, provided your content is the one being quoted."
+  - question: "How do I make sure AI tools represent my brand accurately?"
+    answer: "Be the clearest, most authoritative source on the questions that matter to you. State key facts plainly and early, keep them consistent across pages, attribute them to a named author with credentials and dates, and make sure AI crawlers can actually access the content. Ambiguity and hedging are what get you misquoted or ignored."
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large cobalt blue rectangle dominates the left half, bleeding off the left edge. A warm amber arrow points right into empty cream space — but nothing is at the arrow's destination. A B&W photographic cutout of a single empty chair, seen from behind, mid-frame, facing into the blue rectangle. Strong left-to-right tension. Flat screen-print texture. Palette: cobalt blue, warm amber, off-white cream.](/images/Web.jpg)
@@ -44,4 +52,4 @@ But the opportunity? That’s never been bigger.
 
 Because if we get this right, if we build a site that still informs, engages and earns trust even when it’s not the final destination, we’ll have done more than launch a new website.
 
-We’ll have created a platform that’s ready for how people _actually_ find and experience us in the age of AI. The LSTM site launched in March 2026, and [what five weeks of post-launch data revealed](/blog/what-ten-years-of-unruly-content-taught-me-about-migration/) confirmed that instinct — the content that matters most is rarely the content the analytics told us to keep.
+We’ll have created a platform that’s ready for how people _actually_ find and experience us in the age of AI. The LSTM site launched in March 2026, and [what five weeks of post-launch data revealed](/blog/the-godfathers-guide-to-website-migration/) confirmed that instinct — the content that matters most is rarely the content the analytics told us to keep.

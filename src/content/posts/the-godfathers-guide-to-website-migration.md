@@ -14,7 +14,7 @@ I watched [The Godfather](https://www.imdb.com/title/tt0068646/) last night whil
 
 This is content prioritisation. You cannot migrate everything. Some pages have to stay behind. The trick is knowing which ones are the gun — heavy, consequential, and will cause problems if left unattended — and which ones are the cannoli, fine to carry forward and still valuable.
 
-We left behind a page about pneumonia complications. It turned out to be the gun. It was [ranking at position 3 in Google and serving 15,000 impressions a month](/blog/what-ten-years-of-unruly-content-taught-me-about-migration/) to clinical referrers. We took the cannoli. We are now going back for the gun.
+We left behind a page about pneumonia complications. It turned out to be the gun. It was [ranking at position 3 in Google and serving 15,000 impressions a month](/blog/building-a-he-marketing-analytics-dashboard-in-a-week-with-claude/) to clinical referrers. We took the cannoli. We are now going back for the gun.
 
 ### "Keep your friends close, but your enemies closer."
 

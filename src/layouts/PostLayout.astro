@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, pubDate, updatedDate, tags, ogImage } = post.data;
+const { title, description, pubDate, updatedDate, tags, ogImage, faqs } = post.data;
 
 function formatDate(date: Date): string {
   return new Intl.DateTimeFormat('en-GB', {
@@ -84,7 +84,23 @@ const jsonLd = [
         "item": canonicalURL
       }
     ]
-  }
+  },
+  ...(faqs && faqs.length > 0
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": faqs.map((f) => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": f.answer,
+            },
+          })),
+        },
+      ]
+    : []),
 ];
 ---
 
@@ -163,6 +179,21 @@ const jsonLd = [
         </div>
       </div>
     </article>
+
+    <!-- Contextual FAQ block (also emitted as FAQPage schema) -->
+    {faqs && faqs.length > 0 && (
+      <section class="post-faqs" aria-labelledby="faq-label">
+        <p class="section-label" id="faq-label">Frequently asked questions</p>
+        <dl class="faq-list">
+          {faqs.map((f) => (
+            <div class="faq-item">
+              <dt class="faq-q">{f.question}</dt>
+              <dd class="faq-a">{f.answer}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
 
     <!-- Related posts -->
     {related.length > 0 && (

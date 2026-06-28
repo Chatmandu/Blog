@@ -81,7 +81,20 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
           "@id": `${Astro.site}#niall`,
           "name": "Niall Walsh",
           "url": Astro.site,
-          "sameAs": ["https://medium.com/@chatmandu"]
+          "jobTitle": "Director of Marketing",
+          "description": "Writer on marketing, technology and AI, and the places where they collide with culture, communication and how organisations work.",
+          "knowsAbout": [
+            "Artificial intelligence",
+            "AI search and generative engine optimisation",
+            "Content design",
+            "Digital marketing",
+            "Higher education marketing",
+            "Public sector communications"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/niallwalsh/",
+            "https://medium.com/@chatmandu"
+          ]
         },
         {
           "@type": "WebSite",
@@ -89,7 +102,16 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
           "url": Astro.site,
           "name": "Niall Walsh",
           "description": description,
-          "author": { "@id": `${Astro.site}#niall` }
+          "publisher": { "@id": `${Astro.site}#niall` },
+          "author": { "@id": `${Astro.site}#niall` },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": `${Astro.site}tags/{search_term_string}/`
+            },
+            "query-input": "required name=search_term_string"
+          }
         }
       ]
     })} />

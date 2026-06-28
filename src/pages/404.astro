@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found"
+  description="That page doesn't exist — but there's plenty else to read."
+>
+  <div class="article-page">
+    <header class="page-header">
+      <h1 class="article-title">Page not found</h1>
+      <p class="article-desc">
+        The page you were after doesn't exist or has moved. It happens.
+      </p>
+    </header>
+
+    <div class="article-prose"><div class="prose">
+      <p>
+        Try one of these instead:
+      </p>
+      <ul>
+        <li><a href="/">All writing</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </div></div>
+  </div>
+</BaseLayout>

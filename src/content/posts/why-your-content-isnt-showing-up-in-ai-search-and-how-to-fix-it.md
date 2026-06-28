@@ -3,10 +3,22 @@ title: "Why your content isn’t showing up in AI search (and how to fix it)"
 description: "The shift from clicks to citations is already here — and the data is stark"
 ogImage: "/images/Search.jpg"
 pubDate: 2026-01-11
+updatedDate: 2026-06-28
 tags: ["AI", "Content Design"]
+faqs:
+  - question: "Why is my content not showing up in AI search results?"
+    answer: "Usually for one of three reasons: AI systems can't access your page (a robots.txt or crawler block), they can't extract a clean answer from it (no direct, quotable response near the top), or they don't yet trust it enough to cite (weak author, date and source signals). It's rarely about ranking position alone."
+  - question: "Why isn't my content cited by AI tools even though it ranks well on Google?"
+    answer: "Ranking and citation are different jobs. Google's blue links reward relevance and authority across a whole page; AI answer engines lift a specific 40–60 word chunk that directly answers the question. If your answer is buried, hedged, or spread across several paragraphs, you can rank on page one and still never be quoted."
+  - question: "How do I get my website cited in ChatGPT, Perplexity and Google AI Overviews?"
+    answer: "Make sure AI crawlers are allowed in robots.txt, put a direct answer in the first 100 words, structure content as clear question-and-answer blocks, add author, date and source signals, and use schema (Article, FAQPage, Person). Then test your priority questions in each tool and fix the gaps — each platform draws on different sources."
+  - question: "Could my site be accidentally blocking AI crawlers?"
+    answer: "Yes, and it's common. Many sites added blocks for GPTBot, ClaudeBot, Google-Extended and others during the early AI-anxiety wave, or have robots.txt rules that block more than intended. If those agents can't fetch your pages, you cannot be cited. A five-minute robots.txt check is often the single highest-impact fix."
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A bright cobalt blue spotlight beam shines from top-right — but points slightly left of centre, missing a small near-black rectangle in the lower-left quadrant. The rectangle is just out of reach of the light. Off-white cream background. A B&W photographic cutout of a single sealed envelope, placed beneath the rectangle, in the unlit zone.](/images/Search.jpg)
+
+**The short version:** your content usually isn't showing up in AI answers because the AI systems either can't access it, can't extract a clean answer from it, or don't yet trust it enough to quote. Fixing it means unblocking AI crawlers, structuring pages answer-first, and building clear author and source signals — not just trying to rank higher. The rest of this piece explains why, and what to do about each.
 
 A few months ago, I wrote about how AI is quietly rewriting the rules of search, and why that changes everything about how we build websites. You can read it here: **”**[**Building for the Visitors Who’ll Never Visit**](/blog/building-for-the-visitors-wholl-never-visit/)**.”**
 

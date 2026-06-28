@@ -3,7 +3,17 @@ title: "FAQs: from content design sin to AI citation strategy"
 description: “FAQs were a content design red flag for a decade. AI search has changed the job — and the format we dismissed as lazy might now be your easiest route to getting cited and trusted.”
 ogImage: "/images/Faq.jpg"
 pubDate: 2026-01-23
+updatedDate: 2026-06-28
 tags: ["AI", "Content Design"]
+faqs:
+  - question: "Are FAQ pages bad for content design and SEO?"
+    answer: "A single catch-all FAQ page usually is — it's often a sign that information is missing from the pages where people actually need it, and it dilutes topical focus. What works now is small, contextual FAQ blocks placed on the specific pages where users hesitate, written answer-first. The format isn't the problem; the lazy version of it is."
+  - question: "Do FAQs help with AI search and getting cited?"
+    answer: "Yes, when done well. A clear question heading followed by a direct answer is one of the easiest things for an answer engine to lift and quote. Research on generative engine optimisation found that deliberate, well-structured content with clear answers, citations and statistics can improve visibility in AI responses significantly."
+  - question: "Does FAQ schema still work after Google's 2023 change?"
+    answer: "FAQ rich results are now largely limited to recognised government and health sites, so most sites won't see the old expandable snippets in Google. But FAQPage schema still helps machines understand your structure and answers. Treat it as support for clear content, not a shortcut to a rich result."
+  - question: "Where should I put FAQs on my website?"
+    answer: "On the pages where people actually drop out or hesitate — service pages, fees and funding, eligibility, timelines — not on one separate FAQ page. Use 5 to 10 real questions per page, in your audience's wording, each with a tight answer first and detail below, and point back to the definitive guidance rather than duplicating it."
 ---
 
 ![Graphic design in the style of a 1950s–60s American film poster by Saul Bass. A large navy blue question mark dominates the left two-thirds of the frame, bleeding off the top and bottom edges. Its tail curves and terminates in a bold warm amber arrow pointing right — the question mark becomes directional. Off-white cream background. A B&W photographic cutout of a printed index card (close-up, ruled lines visible, corner dog-eared) placed at the tip of the arrow.](/images/Faq.jpg)
