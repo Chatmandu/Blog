@@ -1,0 +1,39 @@
+# Niall Walsh — manualmode.xyz
+
+> Writing by Niall Walsh: essays on marketing, technology, and AI, and the places where they collide with culture, communication, and how organisations actually work. Niall is a communications and digital strategist with 20+ years across local government and higher education, currently Director of Marketing at the Liverpool School of Tropical Medicine. The recurring theme: the gap between how something appears and what is actually happening, and what it takes to do the hard, honest version of the work.
+
+## AI search and visibility
+
+- [Why your content isn't showing up in AI search (and how to fix it)](https://manualmode.xyz/blog/why-your-content-isnt-showing-up-in-ai-search-and-how-to-fix-it/): The shift from clicks to citations, why ranking is no longer enough, and how to be cited by AI answer engines.
+- [The researcher AI can't see (and how to fix it)](https://manualmode.xyz/blog/the-researcher-ai-cant-see-and-how-to-fix-it/): Why excellent researchers vanish from AI answers, and the small fixes — ORCID, a plain-language summary, open access — that make them legible to machines.
+- [FAQs: from content design sin to AI citation strategy](https://manualmode.xyz/blog/faqs-from-content-design-sin-to-ai-citation-strategy/): Why the FAQ format, long dismissed in content design, has become one of the easiest ways to get content cited and trusted by AI.
+- [Building for the visitors who'll never visit](https://manualmode.xyz/blog/building-for-the-visitors-wholl-never-visit/): How AI is rewriting the rules of search, and why that changes how we build websites when the audience may only ever meet us second-hand.
+- [Interest media: discoverability over followership, curiosity over hierarchy](https://manualmode.xyz/blog/interest-media-discoverability-over-followership-curiosity-over-hierarchy/): Social platforms now reward your topic, not your network, and what that shift means for anyone trying to reach an audience.
+
+## Marketing, communications and strategy
+
+- [Meta's ad changes: what local government comms teams should actually be thinking about](https://manualmode.xyz/blog/metas-ad-changes-what-local-government-comms-teams-should-actually-be-thinking-a/): Meta's consent-or-pay shift as a fundamental change in how public sector comms can operate on social, and how to plan around it.
+- [Building a HE marketing analytics dashboard in a week with Claude](https://manualmode.xyz/blog/building-a-he-marketing-analytics-dashboard-in-a-week-with-claude/): Closing the gap between the data you have and the questions a marketer actually needs to ask, by building the dashboard with AI.
+- [The Godfather's guide to website migration](https://manualmode.xyz/blog/the-godfathers-guide-to-website-migration/): The lessons of a large website migration, told through The Godfather: content prioritisation, redirects, PDFs, and the long tail of post-launch corrections.
+- [The stories that land always come from somewhere real](https://manualmode.xyz/blog/the-stories-that-land-always-come-from-somewhere-real/): What a film scene teaches about storytelling in global health, and why AI should support the human part of the work, not replace it.
+- [Half term, Netflix, and the marketing lesson I did not expect](https://manualmode.xyz/blog/half-term-netflix-and-the-marketing-lesson-i-did-not-expect/): Why "I'll do it myself" almost always costs more than you think — a teenager's question becomes a clear explanation of value.
+- [Nobody lets the moment land](https://manualmode.xyz/blog/nobody-lets-the-moment-land/): On how the people inside big moments rarely get to feel them, because there is always the next thing to fix.
+
+## AI, culture and society
+
+- [Every generation discovers history through the medium of its time](https://manualmode.xyz/blog/every-generation-discovers-history-through-its-own-medium/): On AI-generated history content, scepticism and curiosity, and how each generation falls into the past through the format of its day.
+- [What football managers can teach us about AI and the developers who won't adapt](https://manualmode.xyz/blog/what-football-managers-can-teach-us-about-ai-and-the-developers-who-wont-adapt/): Every generation of managers who dismissed the last wave got left behind, and the same is happening with AI.
+- [AI, accountability and harm: what a landmark tech verdict means for parents](https://manualmode.xyz/blog/ai-accountability-and-harm-what-a-landmark-tech-verdict-means-for-parents/): A US court ruling that AI companies can be held responsible for what their products do, and what it means for design, testing and accountability.
+- [Digital ID in the UK: Why Hollywood has already shaped the public's view](https://manualmode.xyz/blog/digital-id-in-the-uk-why-hollywood-has-already-shaped-the-publics-view/): How decades of dystopian film pre-wrote the public's story of digital ID, and the trust problem the UK rollout inherits.
+- [When safety becomes a loophole](https://manualmode.xyz/blog/when-safety-becomes-a-loophole/): What Malcolm Gladwell prompted about self-driving cars, street football, and unintended consequences.
+- [AI, Beer-Chugging Aliens, and a $2K NBA Ad](https://manualmode.xyz/blog/ai-beer-chugging-aliens-and-a-2k-nba-ad/): What a chaotic AI-generated TV commercial signals about where content creation is heading.
+- [I built a 2026 World Cup prediction game with AI in one afternoon](https://manualmode.xyz/blog/world-cup-prediction-game-with-ai/): How a parent and two kids designed and built a daily World Cup squad-building game with AI in a single afternoon.
+
+## Notes
+
+- [Higher education doesn't get to sit this one out](https://manualmode.xyz/notes/higher-education-and-mythos/): A short take on higher education and the AI moment.
+- [On publishing frequency](https://manualmode.xyz/notes/on-publishing-frequency/): A short note on writing pace and why output for its own sake is the wrong target.
+
+## About
+
+- [About Niall Walsh](https://manualmode.xyz/about/): Who Niall is, what he writes about, and why the site is called manual mode.
