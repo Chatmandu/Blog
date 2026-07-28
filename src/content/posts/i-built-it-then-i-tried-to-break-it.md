@@ -1,14 +1,14 @@
 ---
 title: "I built it. Then I tried to break it."
 description: "Designing an analytics playbook system for a small team — with a work-in-progress limit, honest verdicts, and explicit instructions to disagree with its own operator."
-ogImage: "/images/Level.jpg"
+ogImage: "/images/level.jpg"
 pubDate: 2026-07-20
 tags: ["AI", "Code", "Marketing"]
 ---
 
 *A reflection on designing an analytics system that is allowed to tell us we are wrong.*
 
-![Saul Bass-style poster with a single staring eye, evoking chaotic AI-generated advertising.](/images/Level.jpg)
+![Saul Bass-style poster with a single staring eye, evoking chaotic AI-generated advertising.](/images/level.jpg)
 
 
 I went into this sceptical.
