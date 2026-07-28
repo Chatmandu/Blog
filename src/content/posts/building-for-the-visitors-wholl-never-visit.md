@@ -5,6 +5,8 @@ ogImage: "/images/Web.jpg"
 pubDate: 2025-05-11
 updatedDate: 2026-06-28
 tags: ["AI", "Design", "Digital"]
+featured: true
+featuredLabel: "On digital strategy and AI audiences"
 faqs:
   - question: "What does it mean to build a website for AI search?"
     answer: "It means designing so your content survives being scraped, summarised and quoted by AI tools, not just clicked. In practice that's clear answer-first writing, strong structure, visible author and source signals, and machine-readable markup — so that when a tool answers on your behalf, your meaning, credibility and voice still come through."

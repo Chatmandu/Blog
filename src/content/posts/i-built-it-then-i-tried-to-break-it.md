@@ -4,6 +4,8 @@ description: "Designing an analytics playbook system for a small team — with a
 ogImage: "/images/level.jpg"
 pubDate: 2026-07-20
 tags: ["AI", "Code", "Marketing"]
+featured: true
+featuredLabel: "On designing for scepticism"
 ---
 
 *A reflection on designing an analytics system that is allowed to tell us we are wrong.*

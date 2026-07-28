@@ -1,0 +1,126 @@
+---
+/**
+ * Subscribe component
+ *
+ * To activate email collection, set NEWSLETTER_ENDPOINT to your
+ * provider's form submission URL. Examples:
+ *   Buttondown: https://buttondown.email/api/emails/embed-subscribe/YOUR_LIST
+ *   ConvertKit: https://app.convertkit.com/forms/YOUR_FORM_ID/subscriptions
+ *   Mailchimp:  your Mailchimp embed action URL
+ *
+ * Leave as an empty string to show an "email me directly" fallback
+ * until a provider is configured.
+ */
+const NEWSLETTER_ENDPOINT = '';
+
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+
+<section
+  class={`subscribe-block${compact ? ' subscribe-block--compact' : ''}`}
+  id="subscribe"
+  aria-labelledby="subscribe-heading"
+>
+  <div class="subscribe-block__inner">
+    {!compact && <p class="subscribe-block__label">Stay in touch</p>}
+
+    <h2 class="subscribe-block__heading" id="subscribe-heading">
+      {compact
+        ? 'Get new essays by email.'
+        : 'Occasional essays and notes on higher education marketing, AI and digital practice.'}
+    </h2>
+
+    <form
+      class="subscribe-form"
+      aria-label="Email subscription"
+      id="subscribe-form"
+      novalidate
+    >
+      <div class="subscribe-form__row">
+        <label for="subscribe-email" class="subscribe-form__label">
+          Email address
+        </label>
+        <div class="subscribe-form__fields">
+          <input
+            type="email"
+            id="subscribe-email"
+            name="email"
+            class="subscribe-form__input"
+            placeholder="you@example.com"
+            required
+            autocomplete="email"
+            aria-required="true"
+          />
+          <button type="submit" class="subscribe-form__btn">
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <p class="subscribe-form__note">No spam. Unsubscribe any time.</p>
+      <p
+        class="subscribe-form__status"
+        role="status"
+        aria-live="polite"
+        id="subscribe-status"
+      ></p>
+    </form>
+  </div>
+</section>
+
+<script define:vars={{ NEWSLETTER_ENDPOINT }}>
+  (function () {
+    const form = document.getElementById('subscribe-form');
+    const status = document.getElementById('subscribe-status');
+    if (!form || !status) return;
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const emailInput = form.querySelector('input[type="email"]');
+      const email = emailInput ? emailInput.value.trim() : '';
+
+      if (!email) {
+        status.textContent = 'Please enter your email address.';
+        status.className = 'subscribe-form__status subscribe-form__status--error';
+        emailInput && emailInput.focus();
+        return;
+      }
+
+      if (!NEWSLETTER_ENDPOINT) {
+        status.textContent =
+          'Subscription is not yet configured. Email niall@manualmode.xyz to be added to the list.';
+        status.className = 'subscribe-form__status subscribe-form__status--info';
+        return;
+      }
+
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) btn.disabled = true;
+      status.textContent = 'Subscribing…';
+      status.className = 'subscribe-form__status subscribe-form__status--loading';
+
+      try {
+        const res = await fetch(NEWSLETTER_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams({ email }),
+        });
+
+        if (res.ok) {
+          status.textContent = 'Done. Check your inbox for a confirmation email.';
+          status.className = 'subscribe-form__status subscribe-form__status--success';
+          form.reset();
+        } else {
+          throw new Error('non-ok response');
+        }
+      } catch {
+        status.textContent =
+          'Something went wrong. Email niall@manualmode.xyz directly instead.';
+        status.className = 'subscribe-form__status subscribe-form__status--error';
+      } finally {
+        if (btn) btn.disabled = false;
+      }
+    });
+  })();
+</script>

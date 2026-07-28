@@ -1,0 +1,44 @@
+---
+const navLinks = [
+  { href: '/',               label: 'Writing'   },
+  { href: '/notes/',         label: 'Notes'     },
+  { href: '/about/',         label: 'About'     },
+  { href: '/about/#contact', label: 'Contact'   },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="top-nav" aria-label="Primary navigation">
+  <div class="top-nav__inner">
+
+    <a href="/" class="top-nav__brand" aria-label="Manual Mode — home">
+      Manual&nbsp;Mode
+    </a>
+
+    <ul class="top-nav__links" role="list">
+      {navLinks.map(({ href, label }) => (
+        <li>
+          <a
+            href={href}
+            class="top-nav__link"
+            aria-current={
+              label !== 'Contact' && (
+                currentPath === href ||
+                (href !== '/' && currentPath.startsWith(href))
+              ) ? 'page' : undefined
+            }
+          >
+            {label}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a href="/#subscribe" class="top-nav__link top-nav__link--subscribe">
+          Subscribe
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</nav>

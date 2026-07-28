@@ -1,4 +1,7 @@
 ---
+// Secondary navigation shown in the desktop sidebar rail.
+// TopNav (primary, horizontal) handles Writing/Notes/About/Contact/Subscribe.
+// The sidebar keeps these as visual secondary links on desktop only.
 const navLinks = [
   { href: '/',        label: 'Writing' },
   { href: '/notes/',  label: 'Notes'   },
@@ -15,12 +18,12 @@ const currentPath = Astro.url.pathname;
   <span class="site-sidebar__dot" aria-hidden="true"></span>
 
   <!-- Rotated site name — home link, centred on sidebar -->
-  <a href="/" class="site-logo" aria-label="Niall Walsh — home">
-    Niall&nbsp;Walsh
+  <a href="/" class="site-logo" aria-label="Manual Mode — home">
+    Manual&nbsp;Mode
   </a>
 
-  <!-- Nav links — rotated on desktop, inline on mobile -->
-  <nav class="site-sidebar__nav" aria-label="Site navigation">
+  <!-- Nav links — rotated on desktop, hidden on mobile (TopNav handles mobile nav) -->
+  <nav class="site-sidebar__nav" aria-label="Secondary navigation" aria-hidden="false">
     {navLinks.map(({ href, label }) => (
       <a
         href={href}
@@ -31,6 +34,7 @@ const currentPath = Astro.url.pathname;
             ? 'page'
             : undefined
         }
+        tabindex="0"
       >
         {label}
       </a>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Subscribe from '../components/Subscribe.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
@@ -10,32 +11,16 @@ const posts = allPosts.sort(
 );
 const [featured, ...rest] = posts;
 
+// Curated "Start here" posts — marked featured: true in frontmatter,
+// excluding the current latest post (already shown in the featured hero).
+const startHerePosts = allPosts
+  .filter(p => p.data.featured === true && p.slug !== featured?.slug)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4);
+
 const recentNotes = allNotes
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
-
-const siteSchema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Niall Walsh",
-    "url": "https://manualmode.xyz",
-    "description": "Essays and notes on marketing, technology, AI and the places where they collide.",
-    "author": { "@id": "https://manualmode.xyz/#niall" }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://manualmode.xyz/#niall",
-    "name": "Niall Walsh",
-    "url": "https://manualmode.xyz",
-    "sameAs": [
-      "https://www.linkedin.com/in/niallwalsh/",
-      "https://medium.com/@chatmandu"
-    ],
-    "knowsAbout": ["Marketing", "Artificial Intelligence", "Content Design", "Digital Communications"]
-  }
-];
 
 function formatDate(date: Date): string {
   return new Intl.DateTimeFormat('en-GB', {
@@ -50,22 +35,31 @@ function readingTime(content: string): string {
 ---
 
 <BaseLayout title="Manual Mode" description="Essays on marketing, technology, AI and the places where they collide.">
-  <script type="application/ld+json" set:html={JSON.stringify(siteSchema)} slot="head" />
+  <!-- Person + WebSite schema is emitted by BaseLayout. No duplicate needed here. -->
   <div class="container--editorial">
 
     <!-- Masthead hero -->
     <section class="home-hero" aria-labelledby="hero-heading">
-      <p class="home-hero__eyebrow">Niall Walsh &mdash; Writing</p>
+      <p class="home-hero__eyebrow">Manual Mode</p>
       <h1 class="home-hero__title" id="hero-heading">
-        Ideas worth<br />thinking about.
+        Writing about marketing, AI and digital change in higher education.
       </h1>
       <hr class="home-hero__rule" aria-hidden="true" />
       <p class="home-hero__sub">
-        Essays on marketing, technology, AI and the places where they collide.
+        Essays on marketing, technology, AI and the places where they collide with culture, communication and how organisations work.
       </p>
+      <!-- Identity block — visible above the fold on standard screens -->
+      <div class="home-hero__bio">
+        <p>
+          I'm Niall Walsh, Director of Marketing at the
+          <a href="https://www.lstmed.ac.uk/" target="_blank" rel="noopener noreferrer">Liverpool School of Tropical Medicine</a>.
+          I write about higher education marketing, AI, digital strategy and the systems behind them.
+          <a href="/about/">More about me</a> or <a href="/about/#contact">get in touch</a>.
+        </p>
+      </div>
     </section>
 
-    <!-- Featured post — no card box, just bold type -->
+    <!-- Featured post — most recent, type as design -->
     {featured && (
       <section aria-label="Latest post" class="featured-hero">
         <p class="featured-hero__kicker">Latest</p>
@@ -91,19 +85,53 @@ function readingTime(content: string): string {
             </ul>
           )}
           <a href={`/blog/${featured.slug}/`} class="featured-hero__cta" aria-label={`Read ${featured.data.title}`}>
-            Read &nbsp;→
+            Read &nbsp;&rarr;
           </a>
         </div>
       </section>
     )}
 
-    <!-- Two-column: essays left, notes right -->
+    <!-- Start here — curated selection for first-time visitors -->
+    {startHerePosts.length > 0 && (
+      <section class="start-here" aria-labelledby="start-here-label">
+        <p class="section-label" id="start-here-label">
+          Start here
+        </p>
+        <div class="start-here__grid">
+          {startHerePosts.map(post => (
+            <article class="start-here__item">
+              {post.data.featuredLabel && (
+                <p class="start-here__editorial">{post.data.featuredLabel}</p>
+              )}
+              <h2 class="start-here__title">
+                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+              </h2>
+              {post.data.description && (
+                <p class="start-here__desc">{post.data.description}</p>
+              )}
+              <div class="start-here__meta">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {formatDate(post.data.pubDate)}
+                </time>
+                <span aria-hidden="true">·</span>
+                <span>{readingTime(post.body)}</span>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Subscription form -->
+    <Subscribe />
+
+    <!-- Two-column: essays left, sidebar right -->
     <div class="home-columns">
 
-      <!-- Left: post list -->
+      <!-- Left: full post archive -->
       <section aria-labelledby="posts-label" class="home-columns__essays">
         <p class="section-label" id="posts-label">
-          Essays
+          All essays
           <span class="section-label__count">{posts.length}</span>
         </p>
         <ul class="post-rows" role="list">
@@ -132,36 +160,66 @@ function readingTime(content: string): string {
                   <span>{readingTime(post.body)}</span>
                 </div>
               </div>
-              <span class="post-row__arrow" aria-hidden="true">→</span>
+              <span class="post-row__arrow" aria-hidden="true">&rarr;</span>
             </li>
           ))}
         </ul>
       </section>
 
-      <!-- Right: notes sidebar -->
-      {recentNotes.length > 0 && (
-        <aside aria-labelledby="notes-label" class="home-columns__notes">
-          <p class="section-label" id="notes-label">
-            Notes
-            <a href="/notes/" class="section-label__link">All →</a>
+      <!-- Right sidebar: bio + notes + RSS -->
+      <aside class="home-columns__notes" aria-label="About and recent notes">
+
+        <!-- Bio snippet -->
+        <div class="sidebar-bio">
+          <p class="sidebar-bio__text">
+            Niall Walsh writes about higher education marketing, AI and digital practice.
+            Director of Marketing at the
+            <a href="https://www.lstmed.ac.uk/" target="_blank" rel="noopener noreferrer">Liverpool School of Tropical Medicine</a>.
           </p>
-          <ul class="note-rows" role="list">
-            {recentNotes.map(note => (
-              <li class="note-row note-row--sidebar">
-                <a href={`/notes/${note.slug}/`} class="note-row__link" tabindex="-1" aria-hidden="true"></a>
-                <div class="note-row__body">
-                  <h2 class="note-row__title">
-                    <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
-                  </h2>
-                  <time class="note-row__date" datetime={note.data.pubDate.toISOString()}>
-                    {formatDate(note.data.pubDate)}
-                  </time>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </aside>
-      )}
+          <a href="/about/" class="sidebar-bio__link">About this site &rarr;</a>
+        </div>
+
+        <!-- Recent notes -->
+        {recentNotes.length > 0 && (
+          <>
+            <p class="section-label" id="notes-label">
+              Notes
+              <a href="/notes/" class="section-label__link">All &rarr;</a>
+            </p>
+            <ul class="note-rows" role="list" aria-labelledby="notes-label">
+              {recentNotes.map(note => (
+                <li class="note-row">
+                  <a href={`/notes/${note.slug}/`} class="note-row__link" tabindex="-1" aria-hidden="true"></a>
+                  <div class="note-row__body">
+                    <h2 class="note-row__title">
+                      <a href={`/notes/${note.slug}/`}>{note.data.title}</a>
+                    </h2>
+                    <time class="note-row__date" datetime={note.data.pubDate.toISOString()}>
+                      {formatDate(note.data.pubDate)}
+                    </time>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        <!-- Subscribe prompt -->
+        <div class="sidebar-subscribe">
+          <p class="sidebar-subscribe__text">
+            Get new essays by email when they're published.
+          </p>
+          <a href="/#subscribe" class="sidebar-subscribe__link">Subscribe &rarr;</a>
+        </div>
+
+        <!-- Footer links -->
+        <p class="sidebar-footer-links">
+          <a href="/rss.xml">RSS</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="https://www.linkedin.com/in/niallwalsh/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+
+      </aside>
 
     </div><!-- /home-columns -->
 

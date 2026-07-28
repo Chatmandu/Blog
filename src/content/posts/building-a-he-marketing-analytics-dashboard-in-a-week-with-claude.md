@@ -5,6 +5,8 @@ ogImage: "/images/Dashboard.jpg"
 pubDate: 2026-04-11
 updatedDate: 2026-06-28
 tags: ["AI", "Code", "Design", "Marketing"]
+featured: true
+featuredLabel: "On building marketing systems with AI"
 faqs:
   - question: "Can you build a marketing analytics dashboard with AI like Claude?"
     answer: "Yes. The analytics setup most teams need already exists — GA4, GTM, Search Console — but the gap is the time, technical capacity and budget to turn that data into the answers a marketer actually asks. Working with an AI assistant closes that distance, letting you build a working dashboard in days rather than commissioning a project that never gets funded."

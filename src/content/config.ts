@@ -10,6 +10,9 @@ const posts = defineCollection({
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     ogImage: z.string().optional(),
+    // Curated "Start here" flag — marks posts for the homepage featured section
+    featured: z.boolean().default(false),
+    featuredLabel: z.string().optional(),
     // Optional contextual FAQ block: rendered on the page + emitted as FAQPage schema
     faqs: z
       .array(

@@ -5,6 +5,8 @@ ogImage: "/images/Search.jpg"
 pubDate: 2026-01-11
 updatedDate: 2026-06-28
 tags: ["AI", "Content Design"]
+featured: true
+featuredLabel: "On AI search and content visibility"
 faqs:
   - question: "Why is my content not showing up in AI search results?"
     answer: "Usually for one of three reasons: AI systems can't access your page (a robots.txt or crawler block), they can't extract a clean answer from it (no direct, quotable response near the top), or they don't yet trust it enough to cite (weak author, date and source signals). It's rarely about ranking position alone."
