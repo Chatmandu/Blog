@@ -78,7 +78,7 @@ Near-term: targets on headline metrics so stat cards show progress against month
 
 Longer-term: three to four months of data makes period comparison significantly more powerful, and the query intent groupings can be refined against what’s actually appearing in results rather than what I predicted would appear.
 
-Finished? No. But useful now, getting better, and the cost of changing direction remains low. That’s a better position than waiting for finished.
+Finished? No. But useful now, getting better, and the cost of changing direction remains low. That’s a better position than waiting for finished. The next stage — building a playbook system on top of it that’s designed to disagree with me — is [written up here](/blog/i-built-it-then-i-tried-to-break-it/).
 
 ### The technical detail
 
