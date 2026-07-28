@@ -1,6 +1,6 @@
 ---
 title: "Every generation discovers history through the medium of its time"
-description: "Chloe vs History is AI-generated, a bit annoying, and maybe the next way a generation falls into the past. On formats, scepticism and curiosity."
+description: "A generation is discovering history through AI-generated video. What Chloe vs History says about formats, scepticism, and how new media reshapes how we engage with the past."
 ogImage: "/images/discovering-history.jpg"
 pubDate: 2026-06-26
 tags: ["AI", "Culture", "Digital"]

@@ -1,6 +1,6 @@
 ---
 title: "Why your content isn’t showing up in AI search (and how to fix it)"
-description: "The shift from clicks to citations is already here — and the data is stark"
+description: "AI tools now answer questions your content used to answer. How the shift from clicks to citations works, why most websites are invisible to it, and what to do about it."
 ogImage: "/images/Search.jpg"
 pubDate: 2026-01-11
 updatedDate: 2026-06-28

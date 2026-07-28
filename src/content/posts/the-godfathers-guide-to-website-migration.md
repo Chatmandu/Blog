@@ -1,6 +1,6 @@
 ---
 title: "The Godfather's guide to website migration"
-description: "I watched The Godfather while five weeks of post-launch redirect data loaded in another tab. By the third act I realised Francis Ford Coppola had essentially made a film about website migration."
+description: "Five Godfather quotes that explain content prioritisation, PDF redirects, and why you can never truly be out. A migration post written at 1am with GSC open in the next tab."
 ogImage: "/images/godfather.jpg"
 pubDate: 2026-05-02
 tags: ["Digital", "Marketing", "Culture"]

@@ -12,7 +12,7 @@ interface Props {
 
 const {
   title,
-  description = 'Writing by Niall Walsh — ideas, craft, and things worth thinking about.',
+  description = 'Essays on marketing, technology, AI and the places where they collide.',
   ogImage: ogImageProp,
   type = 'website',
 } = Astro.props;
@@ -21,7 +21,7 @@ const {
 const ogImage = ogImageProp ?? '/images/Eye.jpg';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const siteName = 'Niall Walsh';
+const siteName = 'Manual Mode';
 const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
 ---
 

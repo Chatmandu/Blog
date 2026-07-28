@@ -1,6 +1,6 @@
 ---
 title: "The researcher AI can't see (and how to fix it)"
-description: "AI has quietly become a new front door to research, each with its own lock. Why excellent researchers vanish from AI answers, and the small fixes — ORCID, a plain-language summary, open access — that bring them back."
+description: "Excellent researchers vanish from AI answers not because their work is weak, but because they are invisible to machines. The small fixes — ORCID, plain-language summaries, open access — that bring them back."
 ogImage: "/images/revision.jpg"
 pubDate: 2026-06-28
 tags: ["AI", "Content Design", "Digital"]

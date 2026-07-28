@@ -8,7 +8,7 @@ tags: ["AI", "Content Design", "Marketing"]
 
 _What a chaotic AI-generated TV commercial tells us about where content creation is heading_
 
-![Saul Bass-style poster with a single staring eye, evoking chaotic AI-generated advertising.](/images/Eye.jpg)
+![A B&W photographic cutout of a spirit level — seen face-on, the bubble clearly off-centre — placed at the intersection of the arrow and the rectangle's edge.](/images/Eye.jpg)
 
 It’s only been a few weeks since [Veo 3](https://deepmind.google/models/veo/) launched, and we’re already seeing AI-generated content hit prime-time TV.
 

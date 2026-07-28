@@ -1,6 +1,6 @@
 ---
 title: "Nobody lets the moment land"
-description: "The moment passes quicker than the work that got you there."
+description: "On the strange experience of shipping something you've spent months on — and moving straight to the next thing without ever acknowledging what you built."
 ogImage: "/images/Pin.jpg"
 pubDate: 2026-03-25
 tags: ["Design", "Development"]
