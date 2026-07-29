@@ -82,7 +82,8 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
           "@id": `${Astro.site}#niall`,
           "name": "Niall Walsh",
           "url": Astro.site,
-          "jobTitle": "Director of Marketing",
+          "image": new URL("/images/niall-walsh.jpg", Astro.site).toString(),
+          "jobTitle": "Head of Marketing",
           "worksFor": {
             "@type": "Organization",
             "name": "Liverpool School of Tropical Medicine",
@@ -98,7 +99,7 @@ const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
             "Public sector communications"
           ],
           "sameAs": [
-            "https://www.linkedin.com/in/niallwalsh/",
+            "https://www.linkedin.com/in/chatmandu/",
             "https://medium.com/@chatmandu"
           ]
         },

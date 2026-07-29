@@ -1068,6 +1068,20 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
 /* ═══════════════════════════════════════════════════════
    ABOUT
 ═══════════════════════════════════════════════════════ */
+.about-portrait {
+  margin-bottom: var(--sp-10);
+}
+
+.about-portrait img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--c-border);
+  box-shadow: var(--shadow-sm);
+}
+
 .about-intro {
   font-size: var(--text-lg);
   line-height: 1.8;
@@ -1354,6 +1368,20 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
   color: var(--c-muted);
   max-width: 58ch;
   line-height: 1.7;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-4);
+}
+
+.home-hero__bio-portrait {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+  border: 1.5px solid var(--c-border);
+  margin-top: 2px;
 }
 
 .home-hero__bio a {
