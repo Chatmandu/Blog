@@ -80,3 +80,5 @@ Complete an ORCID. Write one plain-language summary and use it everywhere. Depos
 Being visible is not the same as being correctly represented. These tools misattribute work, invent affiliations and merge two people into one, all with total confidence. Being found and described wrongly can be worse than not being found, which is why the audit step comes first and repeats. Visibility is also not rigour: surfacing in an AI answer says nothing about the quality of the work, and trying to appear more important than your work warrants is both possible and pointless.
 
 Everything here is hygiene, not marketing. You are removing ambiguity so that work you have already done can be found and attributed to you correctly.
+
+This is based on a session I ran at Liverpool School of Tropical Medicine Postgraduate Research Student Conference, 'Get Cited by AI: building a researcher profile that's actually found'. The rules are genuinely changing, and that is the opportunity: anyone building a research profile now can set these habits from the start, rather than retrofitting them years later.
