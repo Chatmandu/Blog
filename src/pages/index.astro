@@ -50,16 +50,19 @@ function readingTime(content: string): string {
       </p>
       <!-- Identity block — visible above the fold on standard screens -->
       <div class="home-hero__bio">
-        <img
-          src="/images/niall-walsh.jpg"
-          alt="Niall Walsh"
-          width="48"
-          height="48"
-          loading="eager"
-          decoding="async"
-          fetchpriority="high"
-          class="home-hero__bio-portrait"
-        />
+        <picture>
+          <source srcset="/images/niall-walsh-96.webp" type="image/webp" />
+          <img
+            src="/images/niall-walsh-96.jpg"
+            alt="Niall Walsh"
+            width="48"
+            height="48"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            class="home-hero__bio-portrait"
+          />
+        </picture>
         <p>
           I'm Niall Walsh, Head of Marketing at the
           <a href="https://www.lstmed.ac.uk/" target="_blank" rel="noopener noreferrer">Liverpool School of Tropical Medicine</a>.

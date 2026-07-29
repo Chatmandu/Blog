@@ -41,14 +41,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </header>
 
     <div class="about-portrait">
-      <img
-        src="/images/niall-walsh.jpg"
-        alt="Niall Walsh"
-        width="160"
-        height="160"
-        loading="lazy"
-        decoding="async"
-      />
+      <picture>
+        <source srcset="/images/niall-walsh-320.webp" type="image/webp" />
+        <img
+          src="/images/niall-walsh-320.jpg"
+          alt="Niall Walsh"
+          width="160"
+          height="160"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
     </div>
 
     <div class="article-prose"><div class="prose">
