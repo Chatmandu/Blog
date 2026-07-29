@@ -1138,17 +1138,11 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
     letter-spacing: 0.12em;
   }
 
-  /* Nav — horizontal row on mobile */
-  .site-sidebar__nav {
-    flex-direction: row;
-    gap: var(--sp-4);
-  }
+  /* Sidebar nav links hidden on mobile — TopNav handles primary navigation */
+  .site-sidebar__nav { display: none; }
 
-  .site-nav__link {
-    writing-mode: horizontal-tb;
-    transform: none;
-    font-size: var(--text-xs);
-  }
+  /* TopNav stacks directly below the 54px header bar */
+  .top-nav { top: var(--mobile-h); }
 
   /* Content: no left offset, sits below sticky header */
   .site-content {
