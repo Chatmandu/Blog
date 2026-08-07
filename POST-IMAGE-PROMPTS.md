@@ -313,6 +313,27 @@ The concept: you don't wait for the blueprint. You measure as you build.
 
 ---
 
+## Nobody Is Coming for Your Pint
+*Westminster, "vertical drinking", and the gap between the headline and the policy*
+
+**Feeling:** manufactured alarm around something completely unbothered. The storm is loud; the pint isn't going anywhere.
+
+```
+Graphic design in the style of a 1950s–60s American film poster by Saul Bass.
+Bold geometric shapes — a cluster of vermillion arrows converging from the
+upper-left, every one stopping short of its target — in a strictly limited
+palette of vermillion, near-black, and off-white cream. Flat screen-print
+texture with visible grain. A single high-contrast black-and-white cutout of
+a hand holding a full pint glass, lower-right, upright and unmoved. The
+composition is strongly diagonal, upper-left to lower-right. Abstract and
+conceptual, not literal. No text. No gradients. No drop shadows. Square
+format 1:1, clean white border.
+
+The concept: everything is pointing at the pint and nothing is touching it.
+```
+
+---
+
 ## How to use these
 
 Paste any prompt into **Midjourney**, **DALL-E 3**, or **Adobe Firefly**.
