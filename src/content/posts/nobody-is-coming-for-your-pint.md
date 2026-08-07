@@ -1,7 +1,7 @@
 ---
 title: "Nobody is coming for your pint"
 description: "Westminster council never planned to ban standing in pubs. How a routine licensing review became a national fun-police story, what the council's response got right — and where it handed its critics a second headline."
-ogImage: "/images/nobody-is-coming-for-your-pint.jpg"
+ogImage: "/images/pint.jpg"
 pubDate: 2026-08-07
 tags: ["Communication", "LocalGov", "Culture"]
 faqs:
