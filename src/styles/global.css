@@ -1414,6 +1414,32 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
   gap: var(--sp-3);
 }
 
+/* Card image — 4:3, sits above the editorial label */
+.start-here__media {
+  display: block;
+  margin-bottom: var(--sp-2);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--c-surface);
+  /* Reserve space before the image loads — prevents CLS */
+  aspect-ratio: 4 / 3;
+}
+
+.start-here__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition:
+    transform var(--duration-slow) var(--ease-smooth),
+    opacity var(--duration) var(--ease-smooth);
+}
+
+.start-here__item:hover .start-here__media img {
+  transform: scale(1.03);
+  opacity: 0.92;
+}
+
 .start-here__editorial {
   font-family: var(--f-sans);
   font-size: var(--text-xs);
@@ -1709,6 +1735,10 @@ main { flex: 1; padding-block: var(--sp-16) var(--sp-12); }
     grid-template-columns: 1fr;
     gap: var(--sp-8);
   }
+
+  /* Shallower crop on mobile — full-width 4:3 images make the section
+     very tall when the grid collapses to a single column */
+  .start-here__media { aspect-ratio: 16 / 9; }
 
   /* Subscribe fields — stack on narrow screens */
   .subscribe-form__fields {

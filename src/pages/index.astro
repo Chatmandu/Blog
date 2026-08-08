@@ -32,6 +32,14 @@ function readingTime(content: string): string {
   const mins = Math.max(1, Math.round(content.trim().split(/\s+/).length / 200));
   return `${mins} min read`;
 }
+
+// Card thumbnails: /images/Foo.jpg → /images/Foo-card.webp + /images/Foo-card.jpg
+// Generated at 800×600 (4:3). Falls back to no image if the post has no ogImage.
+function cardImage(ogImage?: string) {
+  if (!ogImage) return null;
+  const stem = ogImage.replace(/\.(jpe?g|png|webp)$/i, '');
+  return { webp: `${stem}-card.webp`, jpg: `${stem}-card.jpg` };
+}
 ---
 
 <BaseLayout title="Manual Mode" description="Essays on marketing, technology, AI and the places where they collide.">
@@ -111,8 +119,25 @@ function readingTime(content: string): string {
           Start here
         </p>
         <div class="start-here__grid">
-          {startHerePosts.map(post => (
+          {startHerePosts.map(post => {
+            const img = cardImage(post.data.ogImage);
+            return (
             <article class="start-here__item">
+              {img && (
+                <a href={`/blog/${post.slug}/`} class="start-here__media" tabindex="-1" aria-hidden="true">
+                  <picture>
+                    <source srcset={img.webp} type="image/webp" />
+                    <img
+                      src={img.jpg}
+                      alt=""
+                      width="800"
+                      height="600"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </a>
+              )}
               {post.data.featuredLabel && (
                 <p class="start-here__editorial">{post.data.featuredLabel}</p>
               )}
@@ -130,7 +155,8 @@ function readingTime(content: string): string {
                 <span>{readingTime(post.body)}</span>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
     )}
