@@ -1,16 +1,18 @@
 ---
 title: "An enquiry has three costs. We only measure one."
-description: "Recruitment teams price cost per lead and cost per application. Almost nobody prices what it costs to answer the enquiry, or how much of that demand we created ourselves."
+description: "Local government built a common way of benchmarking the cost of contact fifteen years ago, and even tried to measure avoidable contact. Higher education prices cost per lead and cost per application, but I have not found the student recruitment equivalent for what it costs to answer one."
 ogImage: "/images/costs.jpg"
 pubDate: 2026-08-21
 tags: ["Marketing", "Content Design", "AI", "LocalGov"]
 faqs:
   - question: "What is failure demand?"
-    answer: "A term from John Seddon: demand created by a failure to do something properly in the first place. In a university context it is the enquiry that only exists because a deadline was unclear, a fee was missing or an application route was hard to find. It looks identical to genuine interest in the inbox, which is why it goes unmeasured. It is not a lead. It is an invoice for a content or process problem, paid in staff time."
+    answer: "A term from John Seddon: demand created by a failure to do something properly in the first place. In a university context it is the enquiry that only exists because a deadline was unclear, a fee was missing or an application route was hard to find. It looks identical to genuine interest in the inbox, which is why it can go unmeasured. It is not a lead. It is an invoice for a content or process problem, paid in staff time."
   - question: "What are the three costs of an enquiry?"
-    answer: "Cost to acquire, cost to handle and the cost of avoidable enquiry. Acquisition is what you spent on search, social, media or events to generate the lead, and higher education measures this reasonably well. Handling is the staff time taken to read, research, answer and often answer again. Avoidable enquiry is the share of that handling capacity consumed because a page, process or system did not do its job. Each one points at a different fix: media mix, workflow, or content."
+    answer: "Cost to acquire, cost to handle and the cost of avoidable enquiry. Acquisition is what you spent on search, social, media or events to generate the lead, and higher education measures this reasonably well. Handling is the staff time taken to read, research, answer and often answer again. Avoidable enquiry is the share of that handling capacity consumed because a page, process or system did not do its job. Each one points at a different fix: media mix, workflow or content."
   - question: "What is a top task, and why does it matter for course pages?"
     answer: "A top task is a job an individual page needs to help somebody complete, not a link you feature in navigation. Most people never see your homepage. They land deep from search and either finish the job on the page they arrived at or leave. With more people now getting answers from search summaries and assistants without reaching a page at all, the job a single page does has become more important rather than less."
+  - question: "Does higher education have a benchmark cost per contact?"
+    answer: "Not a shared student recruitment benchmark I have been able to find. Local government had Socitm's Channel Value Benchmarking, which put the average cost of a council contact at around 15p through the web, £2.83 by phone and £8.62 face to face in 2011. It also had a national indicator for avoidable contact. Higher education measures cost per lead, per enquiry, per application and sometimes per enrolment, but I have not found the equivalent shared benchmark for the cost of handling prospective-student enquiries. If one exists, I would be glad to be pointed at it."
   - question: "Won't reducing enquiries hurt recruitment?"
     answer: "It can, and that is the risk worth naming. A tool designed to reduce enquiries inside a function measured on applications can quietly suppress the contact you needed. The objective is not less contact. It is absorbing the avoidable contact so the enquiries that remain are the ones where a person adds value. The guardrail has to be downstream conversion: if containment rises and applications fall, containment was not a success."
   - question: "Is avoided cost the same as a saving?"
@@ -23,9 +25,15 @@ Fifteen pence. Two pounds eighty-three. Eight pounds sixty-two.
 
 That is roughly what Socitm's benchmarking put the average cost of a council contact at in 2011: 15p through the web, £2.83 by phone and £8.62 face to face. I spent a chunk of my career in local government working to that arithmetic, alongside top-task research we ran with Gerry McGovern under our head of web, Kevin Jump. Two ideas came out of it that I have carried ever since.
 
-The first is that once you can price a contact, you can start to price a badly written page. An unclear deadline does not stay a content problem. It arrives as four hundred phone calls, and four hundred phone calls has a number attached to it.
+Those were not simply illustrative figures. They came from Socitm's Channel Value Benchmarking service, with around 200 councils contributing data in 2011. The important bit was not that £2.83 was some universal truth about a phone call. Councils were measuring broadly comparable things in a broadly comparable way, which meant they could compare their costs, volumes and channel mix with everyone else.
+
+The first lesson I took from it is that once you can price a contact, you can start to price a badly written page. An unclear deadline does not stay a content problem. It arrives as four hundred phone calls, and four hundred phone calls has a number attached to it.
 
 The second came from the title of a deck we gave at the time, *Top tasks beyond the homepage*. Most people never see your homepage. They land deep, from search, and either finish the job on the page they landed on or go somewhere else. So a top task is not simply a link you feature. It is a job an individual page needs to help somebody complete. Fifteen years on, with more people getting answers from search summaries and assistants without reaching a page at all, that feels more true rather than less.
+
+Local government also tried to measure the other side of the problem. National Indicator 14 was designed to measure avoidable contact: contact of low or no value caused by a council failing to do something, or failing to do it properly.
+
+That is not quite the same thing as failure demand, but it is very close to the question I am interested in now. It also carries a useful warning. Agreeing that avoidable contact exists is easy. Agreeing what counts as avoidable, and measuring it consistently, is much harder.
 
 Higher education has not ignored cost. Recruitment teams talk about cost per lead, cost per enquiry, cost per application and, where the data allows it, cost per enrolment. Those measures answer an important marketing question: how much did we spend to create this interest?
 
@@ -51,11 +59,11 @@ The point is narrower. When growth becomes harder, organisations start asking wh
 
 We have been using one phrase for three different numbers.
 
-The first is cost to acquire an enquiry. How much did we spend on search, social, media, events or other activity to generate that lead? Higher education understands this one reasonably well.
+The first is **cost to acquire an enquiry**. How much did we spend on search, social, media, events or other activity to generate that lead? Higher education understands this one reasonably well.
 
-The second is cost to handle an enquiry. How much staff time does it take to read, understand, research, answer and, sometimes, answer again? I see much less evidence of institutions routinely putting a figure on that.
+The second is **cost to handle an enquiry**. How much staff time does it take to read, understand, research, answer and, sometimes, answer again? I see much less evidence of institutions routinely putting a figure on that.
 
-The third is the cost of avoidable enquiry. How much of that staff capacity are we using because a page, process or system did not do its job properly?
+The third is **the cost of avoidable enquiry**. How much of that staff capacity are we using because a page, process or system did not do its job properly?
 
 The third one needs unpacking, because it is where the word "enquiry" does most of its hiding.
 
@@ -77,7 +85,9 @@ All three costs matter, but they lead to very different decisions. A high acquis
 
 The important number downstream is still applications and enrolments. There would be little value in making enquiries cheaper to handle if we also made prospective students less likely to apply.
 
-Until recently, we could not have told these apart even if we had wanted to.
+The order changes depending on what a page is for, too. We are also looking at the parts of the school that sell services rather than recruit students, and there the priorities invert. An enquiry with revenue behind it is not something to absorb. You want more of them, better qualified, answered quickly. Same website, opposite job, and the obvious temptation is to build one enquiry mechanism and point everything towards it.
+
+Until recently, we could not have told any of this apart even if we had wanted to.
 
 ## What the new site actually changed
 
@@ -85,29 +95,15 @@ The honest version is that our old web estate could not reliably tell us who was
 
 None of what follows produces a cost per enquiry on its own. What it produces is the raw material for the second and third numbers, which is considerably more than we had.
 
-Course interest by country. Not simply institutional traffic by country, which tells you relatively little, but demand for a particular programme in a particular market. For a school whose applicant base is genuinely global, and at a point when policy and market conditions are affecting countries differently, that gets us closer to a recruitment strategy based on current behaviour rather than historic assumptions.
+**Course interest by country.** Not simply institutional traffic by country, which tells you relatively little, but demand for a particular programme in a particular market. For a school whose applicant base is genuinely global, and at a point when policy and market conditions are affecting countries differently, that gets us closer to a recruitment strategy based on current behaviour rather than historic assumptions.
 
-Enquiry volume, and where enquiries come from. Which pages produce them. Which channels produce them. Which programmes attract large numbers of enquiries but relatively few applications. That does not automatically mean the page is at fault, but it tells us there is friction somewhere between interest and action. The next question is whether that friction sits in the content, the proposition, eligibility, affordability, the market or the way we handle the enquiry.
+**Enquiry volume, and where enquiries come from.** Which pages produce them. Which channels produce them. Which programmes attract large numbers of enquiries but relatively few applications. That does not automatically mean the page is at fault, but it tells us there is friction somewhere between interest and action. The next question is whether that friction sits in the content, the proposition, eligibility, affordability, the market or the way we handle the enquiry.
 
-The gap between interest and enquiry. High traffic with relatively few enquiries might mean a page answered the important questions, which is good. It might also mean it failed to give anybody a reason to act. The number itself cannot tell us which, but for the first time we have enough information to start investigating it properly.
+**The gap between interest and enquiry.** High traffic with relatively few enquiries might mean a page answered the important questions, which is good. It might also mean it failed to give anybody a reason to act. The number itself cannot tell us which, but for the first time we have enough information to start investigating it properly.
 
-What people ask before they arrive. Search Console query data on individual course pages gives us something close to a continuous stream of top-task signals that nobody has to fill in. It is not a substitute for proper top-task research, and it only shows us part of the picture, but it is free, current and already telling us that some of the questions people bring to Google are not the questions our course pages have traditionally been built around.
+**What people ask before they arrive.** Search Console query data on individual course pages gives us something close to a continuous stream of top-task signals that nobody has to fill in. It is not a substitute for proper top-task research, and it only shows us part of the picture, but it is free, current and already telling us that some of the questions people bring to Google are not the questions our course pages have traditionally been built around.
 
 None of this is exotic. It is ordinary practice in many commercial sectors. It is simply newer to us, and I would rather say that plainly than pretend otherwise.
-
-## Two different economics on one website
-
-The next phase is enquiry planning for the commercial side of the school, where we sell laboratory and testing services rather than recruit students. Those pages currently function more as information than as front doors.
-
-For those areas, the priorities reorder.
-
-An enquiry from a hospital laboratory evaluating a diagnostic service is not something to deflect. It is a potential sales lead with revenue behind it, and the objective is more of the right enquiries, better qualified and answered quickly. Here the first cost is the one that matters and the third barely registers, because the volumes are small and every conversation is worth having. At a time when universities are under pressure to diversify income beyond tuition fees, that is not a side issue.
-
-So the same website has to do two opposite jobs. On the recruitment side, it should absorb avoidable demand while preserving valuable human contact. On the commercial side, it should generate and capture demand.
-
-Easy to state, easy to get wrong, because the obvious temptation is to build one enquiry mechanism and point everything towards it.
-
-The top-task question also has to be asked separately. What a laboratory manager needs to complete on a page, such as understanding sample requirements, turnaround times, accreditation and price, has very little in common with what a prospective student needs. Neither should be dictated by what the institution happens to want to say first.
 
 ## The chatbot, and what I am wary of
 
@@ -123,11 +119,11 @@ Three sources point us towards the build list: what people actually ask the enqu
 
 Three things need building in from day one rather than retrofitting later.
 
-Grounding, first. It answers from our approved content and makes the limits of that knowledge clear. A confidently wrong answer about an entry requirement is worse than no answer, because we own the consequences.
+**Grounding, first.** It answers from our approved content and makes the limits of that knowledge clear. A confidently wrong answer about an entry requirement is worse than no answer, because we own the consequences.
 
-Then a working handoff. The failure mode of almost every deflection tool is trapping somebody with a genuine question in a loop. The route to a person has to be obvious.
+**Then a working handoff.** The failure mode of almost every deflection tool is trapping somebody with a genuine question in a loop. The route to a person has to be obvious.
 
-And measurement. Containment rate, handoff rate, repeat contact, the questions it could not answer and, ultimately, what happened next. The unanswered questions may become the most valuable output, because they give us a content backlog written by the audience.
+**And measurement.** Containment rate, handoff rate, repeat contact, the questions it could not answer and, ultimately, what happened next. The unanswered questions may become the most valuable output, because they give us a content backlog written by the audience.
 
 The guardrail has to be downstream conversion. A tool designed to reduce enquiries inside a function measured on applications can quietly suppress the contact you needed. If containment rises and applications fall, containment was not a success. I have [built something and then tried to break it](/blog/i-built-it-then-i-tried-to-break-it/) for exactly this reason.
 
@@ -146,3 +142,13 @@ What does it cost us, roughly, in staff time to handle an enquiry? What proporti
 Answer those three questions this time next year and we will know considerably more than we do now.
 
 Higher education has measured the cost of an enquiry for years. The more useful question is whether we have been measuring the right one.
+
+Which brings me to the thing I actually want to know. Socitm's figures existed because councils measured broadly the same thing in broadly the same way and compared the results. Local government even tried to standardise the measurement of avoidable contact.
+
+Fifteen years on, I have not found the student recruitment equivalent.
+
+Individual universities may well know their own number. What I cannot find is a shared benchmark that tells us whether £2, £5 or £15 to handle an enquiry is good, bad or entirely normal, or what proportion of those contacts should never have needed a person in the first place.
+
+If it exists, I would genuinely like to know where it is.
+
+So that is the question. Does anybody in student recruitment put a number on what it costs to answer an enquiry, and compare it with anyone else?
