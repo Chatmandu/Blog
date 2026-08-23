@@ -2,7 +2,7 @@
 title: "An enquiry has three costs. We only measure one."
 description: "Local government built a common way of benchmarking the cost of contact fifteen years ago, and even tried to measure avoidable contact. Higher education prices cost per lead and cost per application, but I have not found the student recruitment equivalent for what it costs to answer one."
 ogImage: "/images/costs.jpg"
-pubDate: 2026-08-21
+pubDate: 2026-08-23
 tags: ["Marketing", "Content Design", "AI", "LocalGov"]
 faqs:
   - question: "What is failure demand?"
